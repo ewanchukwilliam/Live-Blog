@@ -1,30 +1,206 @@
 # blogAI
 
+A blog platform about AI - being rewritten from Django to Spring Boot + Vue.js.
 
-## 1. Introduction
+---
 
-This is a blog about AI. It is a collection of articles, tutorials, and projects related to AI. The blog is written in markdown and is hosted on GitHub. The blog is updated regularly with new content.
+## Stack Migration Checklist
 
-## 2. Articles
+### Phase 1: Project Setup & Infrastructure
 
-The blog contains articles on various topics related to AI. Some of the topics covered in the articles include machine learning, deep learning, natural language processing, computer vision, and more.
+- [ ] **Docker Environment**
+  - [ ] Create `Dockerfile` for Spring Boot backend
+  - [ ] Create `Dockerfile` for Vue.js frontend
+  - [ ] Update `docker-compose.yml` with all services (backend, frontend, database)
+  - [ ] Configure Docker networking between services
+  - [ ] Set up environment variable management (`.env` files)
 
-## 3. Tutorials
+- [ ] **Database Setup**
+  - [ ] Set up MongoDB Docker container
+  - [ ] Create database Docker container configuration
+  - [ ] Design data migration strategy from existing data
 
-The blog also contains tutorials on how to implement AI algorithms and models. The tutorials cover a wide range of topics and are suitable for beginners as well as advanced users.
+### Phase 2: Spring Boot Backend
 
-## 4. Projects
+- [ ] **Project Initialization**
+  - [ ] Initialize Spring Boot project (Spring Initializr)
+  - [ ] Add dependencies: Spring Web, Spring Data MongoDB, Spring Security, Lombok, etc.
+  - [ ] Configure `application.yml` / `application.properties`
+  - [ ] Set up project package structure
 
-The blog features projects that showcase the practical applications of AI. The projects cover a wide range of domains and are designed to help readers understand how AI can be used in real-world scenarios.
+- [ ] **Database Layer**
+  - [ ] Create MongoDB document models (User, Article, Tutorial, Project, etc.)
+  - [ ] Create repositories for each document
+  - [ ] Configure MongoDB connection settings
+  - [ ] Set up Mongock for database migrations (optional)
 
+- [ ] **Authentication & Security**
+  - [ ] Implement JWT authentication
+  - [ ] Configure Spring Security
+  - [ ] Create user registration endpoint
+  - [ ] Create login/logout endpoints
+  - [ ] Set up password encryption (BCrypt)
+  - [ ] Configure CORS for Vue.js frontend
 
-## startup
+- [ ] **API Endpoints**
+  - [ ] Create REST controllers for articles
+  - [ ] Create REST controllers for tutorials
+  - [ ] Create REST controllers for projects
+  - [ ] Create REST controllers for user management
+  - [ ] Implement DTOs for request/response
+  - [ ] Add input validation
+  - [ ] Implement error handling (global exception handler)
 
-this configuration will automatically run tailwindcss when the server starts
+- [ ] **Additional Features**
+  - [ ] Add pagination support
+  - [ ] Implement search functionality
+  - [ ] Add file upload support (images, etc.)
+  - [ ] Set up logging
+  - [ ] Write unit tests
+  - [ ] Write integration tests
 
-```bash
-docker-compose up
-python manage.py runserver
+### Phase 3: Vue.js Frontend
+
+- [ ] **Project Initialization**
+  - [ ] Create Vue 3 project (Vite recommended)
+  - [ ] Set up TypeScript (optional but recommended)
+  - [ ] Install and configure Vue Router
+  - [ ] Install and configure Pinia (state management)
+  - [ ] Install Axios for API calls
+  - [ ] Set up Tailwind CSS or preferred styling solution
+
+- [ ] **Core Components**
+  - [ ] Create layout components (Header, Footer, Sidebar, Navigation)
+  - [ ] Create reusable UI components (Button, Card, Modal, Form inputs)
+  - [ ] Set up responsive design
+
+- [ ] **Authentication UI**
+  - [ ] Create login page
+  - [ ] Create registration page
+  - [ ] Implement auth state management
+  - [ ] Add route guards for protected pages
+  - [ ] Handle token storage and refresh
+
+- [ ] **Content Pages**
+  - [ ] Create home page
+  - [ ] Create articles list page
+  - [ ] Create article detail page
+  - [ ] Create tutorials list page
+  - [ ] Create tutorial detail page
+  - [ ] Create projects list page
+  - [ ] Create project detail page
+
+- [ ] **Admin/Content Management**
+  - [ ] Create article editor (Markdown support)
+  - [ ] Create tutorial editor
+  - [ ] Create project editor
+  - [ ] Implement image upload
+  - [ ] Create dashboard page
+
+- [ ] **Additional Features**
+  - [ ] Add loading states
+  - [ ] Implement error handling/display
+  - [ ] Add search functionality
+  - [ ] Implement pagination UI
+  - [ ] Write component tests
+
+### Phase 4: Integration & Deployment
+
+- [ ] **Integration**
+  - [ ] Connect frontend to backend APIs
+  - [ ] Test all API integrations
+  - [ ] Handle API error responses in frontend
+  - [ ] Test authentication flow end-to-end
+
+- [ ] **Docker Finalization**
+  - [ ] Optimize Dockerfiles for production (multi-stage builds)
+  - [ ] Configure production environment variables
+  - [ ] Set up Docker volumes for persistent data
+  - [ ] Test full stack with `docker-compose up`
+
+- [ ] **Documentation**
+  - [ ] Document API endpoints (Swagger/OpenAPI)
+  - [ ] Update README with new setup instructions
+  - [ ] Document environment variables
+  - [ ] Create contributing guidelines
+
+### Phase 5: Cleanup
+
+- [ ] Remove old Django files
+- [ ] Remove old Python dependencies
+- [ ] Archive or backup old codebase
+- [ ] Final testing
+- [ ] Deploy to production
+
+---
+
+## New Project Structure (Target)
+
+```
+blog/
+├── backend/                    # Spring Boot application
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   └── resources/
+│   │   └── test/
+│   ├── Dockerfile
+│   └── pom.xml (or build.gradle)
+│
+├── frontend/                   # Vue.js application
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── views/
+│   │   ├── router/
+│   │   ├── stores/
+│   │   └── api/
+│   ├── Dockerfile
+│   └── package.json
+│
+├── docker-compose.yml
+├── .env.example
+└── README.md
 ```
 
+---
 
+## Quick Start (After Migration)
+
+```bash
+# Clone the repository
+git clone <repo-url>
+cd blog
+
+# Copy environment file
+cp .env.example .env
+
+# Start all services
+docker-compose up --build
+
+# Access the application
+# Frontend: http://localhost:3000
+# Backend API: http://localhost:8080
+```
+
+---
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| Backend | Spring Boot 3.x (Java 17+) |
+| Frontend | Vue.js 3 + Vite |
+| Database | PostgreSQL |
+| Auth | JWT + Spring Security |
+| Containerization | Docker + Docker Compose |
+| Styling | Tailwind CSS |
+
+---
+
+## Original Project
+
+This project was originally built with:
+- Python/Django
+- SQLite/PostgreSQL
+- Tailwind CSS
