@@ -2,13 +2,13 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
-    '@nuxt/ui',
-    '@nuxt/image',
-    '@nuxt/eslint',
     '@nuxt/a11y',
+    '@nuxt/eslint',
+    '@nuxt/fonts',
     '@nuxt/hints',
+    '@nuxt/icon',
+    '@nuxt/image',
     '@nuxt/scripts',
-    '@nuxt/test-utils',
   ],
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
