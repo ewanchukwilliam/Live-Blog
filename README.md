@@ -191,7 +191,7 @@ docker-compose up --build
 |-----------|------------|
 | Backend | Spring Boot 3.x (Java 17+) |
 | Frontend | Vue.js 3 + Vite |
-| Database | PostgreSQL |
+| Database | MongoDB |
 | Auth | JWT + Spring Security |
 | Containerization | Docker + Docker Compose |
 | Styling | Tailwind CSS |
