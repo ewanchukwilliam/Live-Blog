@@ -70,20 +70,20 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
       </template>
 
       <UForm :schema="schema" :state="state" class="space-y-4" @submit="onSubmit">
-        <UFormField label="Name" name="name" required>
-          <UInput v-model="state.name" placeholder="Your name" icon="i-lucide-user" />
+        <UFormField label="Name" name="name" required class="w-full">
+          <UInput v-model="state.name" placeholder="Your name" icon="i-lucide-user" class="w-full" />
         </UFormField>
 
-        <UFormField label="Email" name="email" required>
-          <UInput v-model="state.email" type="email" placeholder="your@email.com" icon="i-lucide-mail" />
+        <UFormField label="Email" name="email" required class="w-full">
+          <UInput v-model="state.email" type="email" placeholder="your@email.com" icon="i-lucide-mail" class="w-full" />
         </UFormField>
 
-        <UFormField label="Subject" name="subject" required>
-          <USelect v-model="state.subject" :items="subjectOptions" placeholder="Select a subject" />
+        <UFormField label="Subject" name="subject" required class="w-full">
+          <USelect v-model="state.subject" :items="subjectOptions" placeholder="Select a subject" class="w-full" />
         </UFormField>
 
-        <UFormField label="Message" name="message" required>
-          <UTextarea v-model="state.message" placeholder="What's on your mind?" :rows="5" />
+        <UFormField label="Message" name="message" required class="w-full">
+          <UTextarea v-model="state.message" placeholder="What's on your mind?" :rows="5" class="w-full" />
         </UFormField>
 
         <UButton type="submit" block :loading="loading" icon="i-lucide-send">
