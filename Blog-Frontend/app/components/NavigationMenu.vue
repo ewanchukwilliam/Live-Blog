@@ -111,9 +111,10 @@ const items = ref<NavigationMenuItem[]>([
     target: '_blank'
   },
   {
-    label: 'Help',
-    icon: 'i-lucide-circle-help',
-    disabled: true
+    label: 'Home',
+    icon: 'i-lucide-house',
+	to:"/",
+    disabled: false
   }
 ])
 </script>
