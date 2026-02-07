@@ -16,21 +16,18 @@ const placeholderLinks = [
     </template>
 
     <UPageBody>
-
       <section id="blogs" class="scroll-mt-20 py-10">
-      <UPageHeader
-        title="Welcome To the Home Page"
-        description="A responsive page header with title, description and actions."
-      />
+        <UPageHeader
+          title="Welcome To the Home Page"
+          description="A responsive page header with title, description and actions."
+        />
         <Posts />
       </section>
 
       <!-- Placeholder sections for TOC testing -->
       <section id="introduction" class="scroll-mt-10 py-16 min-h-[80vh]">
         <h2 class="text-2xl font-bold">Introduction</h2>
-        <p class="text-muted ">
-          Placeholder content for introduction section.
-        </p>
+        <p class="text-muted">Placeholder content for introduction section.</p>
         <UButton
           icon="i-lucide-rocket"
           size="md"
@@ -43,7 +40,7 @@ const placeholderLinks = [
 
       <section id="getting-started" class="py-16 min-h-[80vh] scroll-mt-10">
         <h2 class="text-2xl font-bold">Getting Started</h2>
-        <p class="text-muted ">
+        <p class="text-muted">
           Placeholder content for getting started section.
         </p>
         <UButton
@@ -52,7 +49,8 @@ const placeholderLinks = [
           color="primary"
           variant="solid"
           to="/about/"
-		>About</UButton>
+          >About</UButton
+        >
       </section>
 
       <div class="min-w-full flex justify-center">
