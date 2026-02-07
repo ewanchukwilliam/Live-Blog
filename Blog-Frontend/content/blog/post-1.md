@@ -1,7 +1,7 @@
 ---
 title: My First Blog Post
 description: An introduction to my blog and what I'll be writing about.
-date: 2024-01-15
+date: 2025-01-03
 ---
 
 # This is the first blog
@@ -20,8 +20,5 @@ Leetcoding! building more applications! and being more focused per project. I'm 
 
 Less code is more :) it also makes it less daunting to revisit my old code. 
 
-## Integrate Vue Component
-
-
-
-Checkout out the [documentation](https://content.nuxt.com/docs/getting-started) to learn more.
+## Future? 
+I hope that I have a long fullfilling career developing software. I believe it's always been for me. I'm glad I took the steps to pivot careers when I did to pursue a childish dream :) 
