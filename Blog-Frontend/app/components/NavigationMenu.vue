@@ -54,13 +54,6 @@ const items = ref<NavigationMenuItem[]>([
     ],
   },
   {
-    label: "GitHub",
-    icon: "i-simple-icons-github",
-    badge: "6k",
-    to: "https://github.com/ewanchukwilliam",
-    target: "_blank",
-  },
-  {
     label: "About",
     icon: "i-lucide-info",
     to: "/about/",
