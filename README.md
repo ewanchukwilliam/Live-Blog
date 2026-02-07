@@ -8,8 +8,15 @@ A blog platform about AI - being rewritten from Django to Spring Boot + Vue.js.
 - [ ] Nuxt (Vue)
 - [ ] MongoDB
 
+# TODO
+- [ ] Update text on /about
+- [ ] Update Language on index.vue
+- [ ] Clean up Header Links
+- [ ] Structure the Datatypes for the Blogs
+- [ ] Decide what backend
+- [ ] Auth or manual data entry for admin account 
 
-# Documentation for reference
+## Documentation for reference
 https://ui.nuxt.com/docs/components
 https://nuxt.com/docs/4.x/api/components/dev-only
 
