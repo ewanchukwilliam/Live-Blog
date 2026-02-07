@@ -6,7 +6,7 @@ const links = ref<ButtonProps[]>([
     label: 'Learn more',
     color: 'neutral',
     variant: 'subtle',
-	to:'https://www.williamewanchukporfolio.ca',
+	to:'https://www.williamewanchukportfolio.ca',
     trailingIcon: 'i-lucide-arrow-right'
   }
 ])
