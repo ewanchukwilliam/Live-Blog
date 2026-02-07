@@ -14,8 +14,8 @@ const links = ref<ButtonProps[]>([
 
 <template>
   <UPageCTA
-    title="Trusted and supported by our amazing community"
-    description="We've built a strong, lasting partnership. Their trust is our driving force, propelling us towards shared success."
+    title="Student, tinkerer, cheap server hoarder."
+    description="I like building things and writing about it. Check out my projects and see what I've been up to."
     orientation="horizontal"
     :links="links"
   >

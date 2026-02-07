@@ -68,7 +68,9 @@ Made `pages/blog/[...slug].vue` just for blog posts. It has the author section a
 
 ## What I learned
 
-Nuxt Content v3 requires schema definitions for custom frontmatter. Composables are auto imported in Nuxt which is nice. Use `YYYY-MM-DD` date formats for reliable sorting.
+Nuxt Content v3 requires schema definitions for custom frontmatter. Composables are auto imported in Nuxt which is nice. Use `YYYY-MM-DD` date formats for reliable sorting. 
+
+# Rant Begins Here
 
 ## Why am I loving this so much? 
 I didn't realize that my supermaven plugin wasn't working. I thought I had maybe just really bad autocompletion suggestions, but about 4 hours into this I realized it wasn't working at all. I've really enjoyed just building with really well made documentation. Early on I was burned with poorly written documentation in my developer journey. I wen't through an 8 month tech internship at a startup that heavily used AI just recently and it taught me to almost never ready through documentation. I've sinced avoided documentation and defaulted to the LLM's interpretation of it. I've sinced learned that even with all of the context of my codebase and all of the context of the raw documentation, LLM's will still make bad design decisions. 
