@@ -1,7 +1,7 @@
 ---
 title: My First Blog Post
 description: An introduction to my blog and what I'll be writing about.
-date: 2025-01-03
+date: 2026-01-03
 ---
 
 # This is the first blog

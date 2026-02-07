@@ -1,7 +1,7 @@
 ---
 title: How I built this blog system
 description: Setting up dynamic navigation and sorting with Nuxt Content.
-date: 2025-01-08
+date: 2026-01-08
 ---
 
 # How I built this blog system

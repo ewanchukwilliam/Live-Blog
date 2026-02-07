@@ -1,7 +1,7 @@
 ---
 title: Why I Bought Old Dell PowerEdge R720s (Knowing Nothing About Them)
 description: Power draw alone is $20/month for 2 nodes. The savings are in compute, not electricity.
-date: 2025-01-07
+date: 2026-01-07
 ---
 
 # My Perilous journey into self hosting 
