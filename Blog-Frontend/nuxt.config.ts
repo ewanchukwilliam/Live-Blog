@@ -43,7 +43,8 @@ export default defineNuxtConfig({
 	nitro: {
 		prerender: {
 			crawlLinks: true,
-			routes: ['/', '/blogs']
+			routes: ['/', '/blogs'],
+			failOnError: false
 		}
 	},
 	compatibilityDate: "2024-04-03",
