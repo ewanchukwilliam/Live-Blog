@@ -1,11 +1,11 @@
 <template>
   <UApp>
-    <div  class="flex min-h-screen flex-col">
-      <Header />
-      <main class="flex-1">
+    <Header />
+    <UMain>
+      <NuxtLayout>
         <NuxtPage />
-      </main>
-      <Footer />
-    </div>
+      </NuxtLayout>
+    </UMain>
+    <Footer />
   </UApp>
 </template>
