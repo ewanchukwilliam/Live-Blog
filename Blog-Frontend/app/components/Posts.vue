@@ -5,7 +5,7 @@ const posts = computed(() =>
   blogs.value?.map((blog, i) => ({
     title: blog.title || 'Untitled',
     description: blog.description || '',
-    image: blog.image || `/images/blog/post-${(i % 3) + 1}.jpg`,
+    image: blog.image || `https://picsum.photos/seed/${blog.path.replace(/\//g, '-')}/800/400`,
     date: blog.date || '',
     to: blog.path
   })) || []

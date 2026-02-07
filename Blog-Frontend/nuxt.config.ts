@@ -34,6 +34,18 @@ export default defineNuxtConfig({
 		}
 	},
 	devtools: { enabled: true },
+	content: {
+		database: {
+			type: 'sqlite',
+			filename: ':memory:'
+		}
+	},
+	nitro: {
+		prerender: {
+			crawlLinks: true,
+			routes: ['/', '/blogs']
+		}
+	},
 	compatibilityDate: "2024-04-03",
 	css: ["~/assets/css/main.css"],
 	ui: {
