@@ -15,16 +15,16 @@ const items = ref<NavigationMenuItem[]>([
     active: false,
     children: [
       {
-        label: "Link",
+        label: "Blog 1",
         icon: "i-lucide-file-text",
         description: "Use NuxtLink with superpowers.",
-        to: "/docs/components/link",
+        to: "/blog/post-1",
       },
       {
-        label: "Modal",
+        label: "Blog 2",
         icon: "i-lucide-file-text",
         description: "Display a modal within your application.",
-        to: "/docs/components/modal",
+        to: "/blog/post-2",
       },
       {
         label: "NavigationMenu",

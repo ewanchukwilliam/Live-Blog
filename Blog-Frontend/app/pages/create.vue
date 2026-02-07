@@ -1,0 +1,14 @@
+<template>
+  <UPage
+    v-motion
+    :initial="{ opacity: 0, y: 16, filter: 'blur(10px)' }"
+    :enter="{
+      opacity: 1,
+      y: 0,
+      filter: 'blur(0px)',
+      transition: { duration: 500, easing: 'easeOut' },
+    }"
+  >
+    <CreateBlog />
+  </UPage>
+</template>

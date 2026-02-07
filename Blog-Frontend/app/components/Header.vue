@@ -6,16 +6,7 @@
     </template>
     <NavigationMenu />
     <template #right>
-      <UTooltip text="Login Page">
-        <UButton
-          color="neutral"
-          variant="ghost"
-          to="/login/"
-          icon="i-lucide-log-in"
-          aria-label="GitHub"
-          >Login</UButton
-        >
-      </UTooltip>
+		<AccountState/>
     </template>
   </UHeader>
 </template>
