@@ -1,23 +1,56 @@
-# blogAI
+# William's Blog
 
-A blog platform about AI - being rewritten from Django to Spring Boot + Vue.js.
-
----
+Personal blog and portfolio site.
 
 ## Tech Stack
-- [ ] Nuxt (Vue)
-- [ ] MongoDB
 
-# TODO
-- [ ] Update Language 
-- [ ] Clean up Header Links
-- [ ] Structure the Datatypes for the Blogs
-- [ ] Decide what backend
-- [ ] Auth or manual data entry for admin account 
+- **Nuxt 4** - Vue framework with SSR
+- **Nuxt UI** - Component library with Tailwind CSS
+- **Nuxt Content** - Markdown-based blog posts
+- **Vercel** - Hosting
 
-## Documentation for reference
-https://ui.nuxt.com/docs/components
-https://nuxt.com/docs/4.x/api/components/dev-only
+## Structure
 
+```
+Blog-Frontend/    # Nuxt application
+  app/
+    components/   # Vue components
+    composables/  # useBlogs, useBlogNavItems
+    pages/        # Routes
+  content/
+    blog/         # Markdown blog posts
+```
 
+## Quick Start
 
+```bash
+cd Blog-Frontend
+npm install
+npm run dev
+```
+
+## Adding Posts
+
+Create `content/blog/post-name.md`:
+
+```md
+---
+title: Post Title
+description: Brief description
+date: 2025-01-15
+---
+
+Content here...
+```
+
+Posts auto-populate in nav menu and blog listings.
+
+## Deployment
+
+Push to main. Vercel builds and deploys automatically.
+
+## Docs
+
+- [Nuxt UI Components](https://ui.nuxt.com/docs/components)
+- [Nuxt Content](https://content.nuxt.com)
+- [Nuxt Docs](https://nuxt.com/docs)
