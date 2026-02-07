@@ -9,10 +9,10 @@ date: 2025-01-03
 ## Why am I doing this at all you ask? 
 For the love of the craft of course. I'm a student on a student budget. I found myself recently getting anxious thinking about how reliant I'm become on Claude code. I personally am enjoying working with it less and less everyday. I mostly learned it so I could build anything I ever needed to but its at a several costs I never forsaw.
 
-## I avoid lesser known librarys that are well built
+## I'm avoiding things with resistance
 This isn't really a great example because it is pretty well known, I've just been asking newbie dumb questions, but nonetheless my journey through working with a page of documentation next to me and just an editor without any autocompletions has been nice. I've found a lot of enjoyment in a using a well made library NuxtUI. it was like my dive into lazygit. on top of making things easier for me it also taught me more about the different things that are even possible to be built. j   f
 
-## I should only use llms to search bad documentation. 
+## I should reduce reliance on AI
 I'm a student thats never touched a line of code say 3 years ago. I have lot's of gaps that get filled very quickly. I regret avoiding python earlier. I learned so much more about what is possible with those higher level languages and trying to build everything from scratch myself. it made me not enjoy programming as much on top of fearing complexity to an extent. but moving towards higher level languages showed me significantly more about maintainability of code and complexity management skills I otherwise thought was inevitable in the low langauges.
 
 ## Plans to remedy? 
