@@ -1,75 +1,73 @@
-# Nuxt Content Starter
+# William's Blog
 
-Look at the [Nuxt Content documentation](https://content.nuxt.com) to learn more.
+Personal blog and portfolio site built with Nuxt 3.
+
+## Tech Stack
+
+- **Nuxt 4** - Vue framework with SSR
+- **Nuxt UI** - Component library with Tailwind CSS
+- **Nuxt Content** - Markdown-based content management
+- **Vercel** - Hosting and deployment
+
+## Features
+
+- Dynamic blog system with markdown files
+- Automatic navigation menu from blog posts
+- Date-sorted blog listings
+- Table of contents for blog posts
+- Dark/light mode toggle
+- Contact form
+- Responsive design
 
 ## Setup
 
-Make sure to install dependencies:
-
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Open [http://localhost:3000](http://localhost:3000)
 
-Build the application for production:
+## Adding Blog Posts
+
+Create a new markdown file in `content/blog/`:
+
+```md
+---
+title: My Post Title
+description: A brief description
+date: 2025-01-15
+---
+
+# My Post Title
+
+Content goes here...
+```
+
+The post will automatically appear in navigation and blog listings.
+
+## Project Structure
+
+```
+app/
+  components/     # Vue components
+  composables/    # Shared composables (useBlogs, etc.)
+  pages/          # Route pages
+content/
+  blog/           # Blog posts (markdown)
+public/           # Static assets
+```
+
+## Deployment
+
+Deployed on Vercel. Push to main to trigger a deploy.
+
+Note: Uses in-memory SQLite for Nuxt Content on serverless. Routes are prerendered at build time.
+
+## Development
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+npm run dev      # Start dev server
+npm run build    # Build for production
+npm run preview  # Preview production build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
