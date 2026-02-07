@@ -18,7 +18,6 @@ export const useBlogs = async () => {
     return [...posts].sort((a: any, b: any) => {
       const dateA = a.date ? new Date(a.date).getTime() : 0
       const dateB = b.date ? new Date(b.date).getTime() : 0
-      console.log('Sorting:', a.title, a.date, dateA, 'vs', b.title, b.date, dateB)
       return dateB - dateA
     })
   }, { watch: [() => Date.now()] })
@@ -29,11 +28,14 @@ export const useBlogs = async () => {
 export const useBlogNavItems = async () => {
   const blogs = await useBlogs()
 
+  const truncate = (str: string, max = 50) =>
+    str.length > max ? str.slice(0, max).trim() + '...' : str
+
   return computed<NavigationMenuItem[]>(() =>
     blogs.value?.map((blog: BlogPost): NavigationMenuItem => ({
       label: blog.title || blog.path.split('/').pop() || 'Untitled',
       icon: 'i-lucide-file-text',
-      description: blog.description || 'No description',
+      description: truncate(blog.description || 'No description'),
       to: blog.path
     })) || []
   )

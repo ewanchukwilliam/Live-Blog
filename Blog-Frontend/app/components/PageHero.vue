@@ -3,13 +3,10 @@ import type { ButtonProps } from '@nuxt/ui'
 
 const links = ref<ButtonProps[]>([
   {
-    label: 'Get started',
-    color: 'neutral'
-  },
-  {
     label: 'Learn more',
     color: 'neutral',
     variant: 'subtle',
+	to:'https://www.ewanchukwilliam.com',
     trailingIcon: 'i-lucide-arrow-right'
   }
 ])
