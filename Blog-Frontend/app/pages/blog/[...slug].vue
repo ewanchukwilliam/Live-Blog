@@ -1,16 +1,16 @@
 <script setup lang="ts">
-const route = useRoute()
+const route = useRoute();
 
-const { data: page } = await useAsyncData('page-' + route.path, () => {
-  return queryCollection('content').path(route.path).first()
-})
+const { data: page } = await useAsyncData("page-" + route.path, () => {
+  return queryCollection("content").path(route.path).first();
+});
 
 if (!page.value) {
   throw createError({
     statusCode: 404,
-    statusMessage: 'Page not found',
+    statusMessage: "Page not found",
     fatal: true,
-  })
+  });
 }
 </script>
 
@@ -26,11 +26,7 @@ if (!page.value) {
             <p class="font-semibold">William Ewanchuk</p>
             <p class="text-sm text-muted">Author</p>
           </div>
-          <UAvatar
-            src="/avatar.jpg"
-            alt="William Ewanchuk"
-            size="lg"
-          />
+          <UAvatar src="/avatar.jpg" alt="William Ewanchuk" size="lg" />
         </div>
       </div>
 
@@ -43,8 +39,16 @@ if (!page.value) {
       </section>
     </UPageBody>
 
-    <template v-if="page?.body?.toc?.links?.length" #right>
-      <UContentToc :links="page.body.toc.links" title="On this page" highlight />
+    <template v-if="page?.body?.toc?.links?.length" #right >
+			<div class="flex flex-col">
+				<Calendar :date="page?.date" />
+				<UContentToc
+					:links="page.body.toc.links"
+					title="On this page"
+					highlight
+				/>
+			</div>
+
     </template>
   </UPage>
 </template>
