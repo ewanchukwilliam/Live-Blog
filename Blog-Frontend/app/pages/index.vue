@@ -8,7 +8,7 @@ const placeholderLinks = [
 </script>
 
 <template>
-  <UPage>
+  <UPage v-motion-fade>
     <template #left>
       <UPageAside>
         <UContentToc :links="placeholderLinks" title="On this page" highlight />

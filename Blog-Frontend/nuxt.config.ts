@@ -10,7 +10,29 @@ export default defineNuxtConfig({
 		"@nuxt/image",
 		"@nuxt/scripts",
 		"@nuxt/ui",
+		"@vueuse/motion/nuxt",
 	],
+	// nuxt.config.js
+	runtimeConfig: {
+		public: {
+			motion: {
+				directives: {
+					'pop-bottom': {
+						initial: {
+							scale: 0,
+							opacity: 0,
+							y: 100,
+						},
+						visible: {
+							scale: 1,
+							opacity: 1,
+							y: 0,
+						}
+					}
+				}
+			}
+		}
+	},
 	devtools: { enabled: true },
 	compatibilityDate: "2024-04-03",
 	css: ["~/assets/css/main.css"],

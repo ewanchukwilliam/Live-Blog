@@ -39,5 +39,14 @@ const versions = ref<ChangelogVersionProps[]>([
 </script>
 
 <template>
-  <UChangelogVersions :versions="versions" />
+
+	<UPage v-motion-fade>
+      <UPageHeader
+		class="mb-4"
+        title="Welcome to this blog"
+        description="view all updated blogs surrounding this topic"
+
+      />
+		<UChangelogVersions :versions="versions" />
+	</UPage>
 </template>
