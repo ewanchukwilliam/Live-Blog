@@ -1,3 +1,9 @@
+---
+title: My First Blog Post
+description: An introduction to my blog and what I'll be writing about.
+date: 2024-01-15
+---
+
 # This is the first blog
 
 

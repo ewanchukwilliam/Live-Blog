@@ -1,4 +1,8 @@
-# This is the second blog
+---
+title: My Second Blog Post
+description: An introduction to my blog and what I'll be writing about.
+date: 2025-01-07
+---
 
 
 ## Manage your Contents
