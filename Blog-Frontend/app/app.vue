@@ -1,7 +1,7 @@
 <template>
   <UApp>
     <Header />
-    <UMain>
+    <UMain class="px-12">
       <NuxtPage />
     </UMain>
     <Footer />

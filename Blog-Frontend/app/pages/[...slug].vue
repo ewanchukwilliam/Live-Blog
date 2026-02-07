@@ -18,10 +18,6 @@ const placeholderLinks = [
   { id: "blogs", text: "Blogs", depth: 2 },
   { id: "introduction", text: "Introduction", depth: 2 },
   { id: "getting-started", text: "Getting Started", depth: 2 },
-  { id: "installation", text: "Installation", depth: 3 },
-  { id: "configuration", text: "Configuration", depth: 3 },
-  { id: "usage", text: "Usage", depth: 2 },
-  { id: "api-reference", text: "API Reference", depth: 2 },
 ];
 </script>
 
@@ -53,31 +49,6 @@ const placeholderLinks = [
         </p>
       </section>
 
-      <section id="installation" class="py-16">
-        <h3 class="text-xl font-bold">Installation</h3>
-        <p class="text-muted mt-4">
-          Placeholder content for installation section.
-        </p>
-      </section>
-
-      <section id="configuration" class="py-16">
-        <h3 class="text-xl font-bold">Configuration</h3>
-        <p class="text-muted mt-4">
-          Placeholder content for configuration section.
-        </p>
-      </section>
-
-      <section id="usage" class="py-16">
-        <h2 class="text-2xl font-bold">Usage</h2>
-        <p class="text-muted mt-4">Placeholder content for usage section.</p>
-      </section>
-
-      <section id="api-reference" class="py-16">
-        <h2 class="text-2xl font-bold">API Reference</h2>
-        <p class="text-muted mt-4">
-          Placeholder content for API reference section.
-        </p>
-      </section>
     </UPageBody>
 
     <template #right>
