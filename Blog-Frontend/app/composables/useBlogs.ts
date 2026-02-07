@@ -20,7 +20,7 @@ export const useBlogs = async () => {
       const dateB = b.date ? new Date(b.date).getTime() : 0
       return dateB - dateA
     })
-  }, { watch: [() => Date.now()] })
+  }, { server: true, lazy: false })
 
   return blogs as Ref<BlogPost[] | null>
 }
