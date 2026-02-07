@@ -13,5 +13,18 @@ export default defineNuxtConfig({
 	],
 	devtools: { enabled: true },
 	compatibilityDate: "2024-04-03",
-	css: ['~/assets/css/main.css'],
+	css: ["~/assets/css/main.css"],
+	ui: {
+		theme: {
+			colors: [
+				"primary",
+				"secondary",
+				"tertiary",
+				"info",
+				"success",
+				"warning",
+				"error",
+			],
+		},
+	},
 });
