@@ -1,16 +1,11 @@
 <script setup lang="ts">
 const blogs = await useBlogs()
 
-const getFallbackImage = (path: string) => {
-  const num = path.match(/post-(\d+)/)?.[1] || '1'
-  return `/images/blog/post-${num}.jpg`
-}
-
 const versions = computed(() =>
-  blogs.value?.map(blog => ({
+  blogs.value?.map((blog, i) => ({
     title: blog.title || 'Untitled',
     description: blog.description || '',
-    image: blog.image || getFallbackImage(blog.path),
+    image: blog.image || `/images/blog/post-${(i % 3) + 1}.jpg`,
     date: blog.date || '',
     to: blog.path,
     ui: {
