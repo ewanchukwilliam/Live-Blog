@@ -93,7 +93,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
       <template #footer>
         <p class="text-center text-sm text-muted">
-          Or reach me directly at <ULink to="mailto:hello@example.com" class="text-primary font-medium">hello@example.com</ULink>
+          Or reach me directly at <ULink to="mailto:ewanchukwilliam@gmail.com" class="text-primary font-medium">ewanchukwilliam@gmail.com</ULink>
         </p>
       </template>
     </UCard>

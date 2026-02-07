@@ -3,20 +3,11 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 
 const items: NavigationMenuItem[] = [
   {
-    label: 'Figma Kit',
-    to: 'https://go.nuxt.com/figma-ui',
+    label: 'LinkedIn',
+	icon: "i-simple-icons-linkedin",
+    to: 'https://www.linkedin.com/in/william-ewanchuk-920002239/',
     target: '_blank'
   },
-  {
-    label: 'Playground',
-    to: 'https://stackblitz.com/edit/nuxt-ui',
-    target: '_blank'
-  },
-  {
-    label: 'Releases',
-    to: 'https://github.com/nuxt/ui/releases',
-    target: '_blank'
-  }
 ]
 </script>
 
@@ -29,30 +20,26 @@ const items: NavigationMenuItem[] = [
     <UNavigationMenu :items="items" variant="link" />
 
     <template #right>
-      <UButton
-        icon="i-simple-icons-discord"
-        color="neutral"
-        variant="ghost"
-        to="https://go.nuxt.com/discord"
-        target="_blank"
-        aria-label="Discord"
-      />
-      <UButton
-        icon="i-simple-icons-x"
-        color="neutral"
-        variant="ghost"
-        to="https://go.nuxt.com/x"
-        target="_blank"
-        aria-label="X"
-      />
-      <UButton
-        icon="i-simple-icons-github"
-        color="neutral"
-        variant="ghost"
-        to="https://github.com/nuxt/nuxt"
-        target="_blank"
-        aria-label="GitHub"
-      />
+			<UTooltip text="My Discord">
+				<UButton
+					icon="i-simple-icons-discord"
+					color="neutral"
+					variant="ghost"
+					to="https://go.nuxt.com/discord"
+					target="_blank"
+					aria-label="Discord"
+				/>
+			</UTooltip>
+			<UTooltip text="My GitHub">
+				<UButton
+					icon="i-simple-icons-github"
+					color="neutral"
+					variant="ghost"
+					to="https://github.com/ewanchukwilliam"
+					target="_blank"
+					aria-label="GitHub"
+				/>
+			</UTooltip>
     </template>
   </UFooter>
 </template>

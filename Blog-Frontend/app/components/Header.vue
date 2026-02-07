@@ -4,16 +4,17 @@
       <Logo class="h-6 w-auto" />
       <UColorModeButton />
     </template>
-	<NavigationMenu/>
+    <NavigationMenu />
     <template #right>
-      <UTooltip text="Login Page" :kbds="['meta', 'G']">
+      <UTooltip text="Login Page">
         <UButton
           color="neutral"
           variant="ghost"
           to="/login/"
           icon="i-lucide-log-in"
           aria-label="GitHub"
-				>Login</UButton>
+          >Login</UButton
+        >
       </UTooltip>
     </template>
   </UHeader>

@@ -3,10 +3,10 @@ import type { NavigationMenuItem } from "@nuxt/ui";
 
 const items = ref<NavigationMenuItem[]>([
   {
-    label: "Contact me",
-    icon: "i-lucide-mail",
-	variant:"solid",
-    to: "/contact/",
+    label: "Home",
+    icon: "i-lucide-house",
+    to: "/",
+    disabled: false,
   },
   {
     label: "Blogs",
@@ -66,10 +66,10 @@ const items = ref<NavigationMenuItem[]>([
     to: "/about/",
   },
   {
-    label: "Home",
-    icon: "i-lucide-house",
-    to: "/",
-    disabled: false,
+    label: "Contact me",
+    icon: "i-lucide-mail",
+	variant:"solid",
+    to: "/contact/",
   },
 ]);
 </script>
