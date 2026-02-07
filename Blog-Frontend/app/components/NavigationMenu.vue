@@ -29,5 +29,8 @@ const items = computed<NavigationMenuItem[]>(() => [
 ])
 </script>
 <template>
-    <UNavigationMenu :items="items" />
+    <UNavigationMenu
+      :items="items"
+      :ui="{ childList: 'grid-cols-1' }"
+    />
 </template>

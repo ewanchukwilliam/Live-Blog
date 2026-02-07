@@ -28,14 +28,17 @@ export const useBlogs = async () => {
 export const useBlogNavItems = async () => {
   const blogs = await useBlogs()
 
-  const truncate = (str: string, max = 50) =>
-    str.length > max ? str.slice(0, max).trim() + '...' : str
+  const formatDate = (dateStr?: string) => {
+    if (!dateStr) return ''
+    const date = new Date(dateStr)
+    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+  }
 
   return computed<NavigationMenuItem[]>(() =>
     blogs.value?.map((blog: BlogPost): NavigationMenuItem => ({
       label: blog.title || blog.path.split('/').pop() || 'Untitled',
       icon: 'i-lucide-file-text',
-      description: truncate(blog.description || 'No description'),
+      description: formatDate(blog.date),
       to: blog.path
     })) || []
   )
