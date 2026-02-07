@@ -40,7 +40,6 @@ is it worth it? I'm thinking about moving to vim. I've made a disgusting custom 
 
 for future reference, I doubt I'll ever touch arch and risk the productivity sink of trying to mess around with that. 
 
-ghist? yes I'm going to look into simplifying from neovim to vim. 
+## ghist? 
+yes I'm going to look into simplifying from neovim to vim. Still figuring things out but thats the fun part I guess.
 
-
-Still figuring things out but thats the fun part I guess.

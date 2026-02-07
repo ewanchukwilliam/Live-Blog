@@ -93,5 +93,8 @@ Essays weren't worth all that much to begin with. Homework was always trivialize
 A good LLM only good at doing what the world is already good at doing. It feels like a weak filler that makes a mess of good things. Any industry it supports is fundamentally less stable that it otherwise would have been without whether good or bad.
 
 ## Summary
-I really enjoyed the process of working as closely as I have with documentation for this project. It's a muscle I'd like to grow once again :)j
+I really enjoyed the process of working as closely as I have with documentation for this project. It's a muscle I'd like to grow once again :) also I hope I never have to work with documentaiton without working examples ever again. 
+
+## AI Business Idea
+AI generated template scripts. Plug and play documentation generation scripts. Yes LLMS's are good at documentation. Most documentation is limited by use cases and the creativity of the developer using it. Abstraction examples increases adoption, and developers love it. why not bring better documentation to the world through AI.
 
