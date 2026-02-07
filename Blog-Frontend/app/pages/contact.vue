@@ -1,5 +1,5 @@
 <template>
-  <UPage
+  <UPage 
     v-motion
     :initial="{ opacity: 0, y: 16, filter: 'blur(10px)' }"
     :enter="{
@@ -8,7 +8,9 @@
       filter: 'blur(0px)',
       transition: { duration: 500, easing: 'easeOut' },
     }"
-  >
-    <AuthForm />
+	>
+    <div class="flex min-h-[80vh] items-center justify-center">
+      <ContactForm />
+    </div>
   </UPage>
 </template>

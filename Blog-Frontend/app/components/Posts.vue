@@ -24,7 +24,7 @@ const posts = ref<BlogPostProps[]>([
 </script>
 
 <template>
-  <h2 class="text-2xl font-bold">Blogs</h2>
-  <p class="text-muted mt-4">Placeholder content for introduction section.</p>
+  <h2 class="text-2xl font-bold mt-2">Blogs</h2>
+  <p class="text-muted ">Placeholder content for introduction section.</p>
   <UBlogPosts :posts="posts" />
 </template>

@@ -1,124 +1,78 @@
 <script setup lang="ts">
-import type { NavigationMenuItem } from '@nuxt/ui'
+import type { NavigationMenuItem } from "@nuxt/ui";
 
 const items = ref<NavigationMenuItem[]>([
   {
-    label: 'Guide',
-    icon: 'i-lucide-book-open',
-    to: '/docs/getting-started',
+    label: "Contact me",
+    icon: "i-lucide-mail",
+	variant:"solid",
+    to: "/contact/",
+  },
+  {
+    label: "Blogs",
+    icon: "i-lucide-box",
+    to: "/blogs/",
+    active: false,
     children: [
       {
-        label: 'Introduction',
-        description: 'Fully styled and customizable components for Nuxt.',
-        icon: 'i-lucide-house'
+        label: "Link",
+        icon: "i-lucide-file-text",
+        description: "Use NuxtLink with superpowers.",
+        to: "/docs/components/link",
       },
       {
-        label: 'Installation',
-        description: 'Learn how to install and configure Nuxt UI in your application.',
-        icon: 'i-lucide-cloud-download'
+        label: "Modal",
+        icon: "i-lucide-file-text",
+        description: "Display a modal within your application.",
+        to: "/docs/components/modal",
       },
       {
-        label: 'Icons',
-        icon: 'i-lucide-smile',
-        description: 'You have nothing to do, @nuxt/icon will handle it automatically.'
+        label: "NavigationMenu",
+        icon: "i-lucide-file-text",
+        description: "Display a list of links.",
+        to: "/docs/components/navigation-menu",
       },
       {
-        label: 'Colors',
-        icon: 'i-lucide-swatch-book',
-        description: 'Choose a primary and a neutral color from your Tailwind CSS theme.'
+        label: "Pagination",
+        icon: "i-lucide-file-text",
+        description: "Display a list of pages.",
+        to: "/docs/components/pagination",
       },
       {
-        label: 'Theme',
-        icon: 'i-lucide-cog',
-        description: 'You can customize components by using the `class` / `ui` props or in your app.config.ts.'
-      }
-    ]
+        label: "Popover",
+        icon: "i-lucide-file-text",
+        description:
+          "Display a non-modal dialog that floats around a trigger element.",
+        to: "/docs/components/popover",
+      },
+      {
+        label: "Progress",
+        icon: "i-lucide-file-text",
+        description: "Show a horizontal bar to indicate task progression.",
+        to: "/docs/components/progress",
+      },
+    ],
   },
   {
-    label: 'Composables',
-    icon: 'i-lucide-database',
-    to: '/docs/composables',
-    children: [
-      {
-        label: 'defineShortcuts',
-        icon: 'i-lucide-file-text',
-        description: 'Define shortcuts for your application.',
-        to: '/docs/composables/define-shortcuts'
-      },
-      {
-        label: 'useOverlay',
-        icon: 'i-lucide-file-text',
-        description: 'Display a modal/slideover within your application.',
-        to: '/docs/composables/use-overlay'
-      },
-      {
-        label: 'useToast',
-        icon: 'i-lucide-file-text',
-        description: 'Display a toast within your application.',
-        to: '/docs/composables/use-toast'
-      }
-    ]
+    label: "GitHub",
+    icon: "i-simple-icons-github",
+    badge: "6k",
+    to: "https://github.com/ewanchukwilliam",
+    target: "_blank",
   },
   {
-    label: 'Components',
-    icon: 'i-lucide-box',
-    to: '/docs/components',
-    active: true,
-    children: [
-      {
-        label: 'Link',
-        icon: 'i-lucide-file-text',
-        description: 'Use NuxtLink with superpowers.',
-        to: '/docs/components/link'
-      },
-      {
-        label: 'Modal',
-        icon: 'i-lucide-file-text',
-        description: 'Display a modal within your application.',
-        to: '/docs/components/modal'
-      },
-      {
-        label: 'NavigationMenu',
-        icon: 'i-lucide-file-text',
-        description: 'Display a list of links.',
-        to: '/docs/components/navigation-menu'
-      },
-      {
-        label: 'Pagination',
-        icon: 'i-lucide-file-text',
-        description: 'Display a list of pages.',
-        to: '/docs/components/pagination'
-      },
-      {
-        label: 'Popover',
-        icon: 'i-lucide-file-text',
-        description: 'Display a non-modal dialog that floats around a trigger element.',
-        to: '/docs/components/popover'
-      },
-      {
-        label: 'Progress',
-        icon: 'i-lucide-file-text',
-        description: 'Show a horizontal bar to indicate task progression.',
-        to: '/docs/components/progress'
-      }
-    ]
+    label: "About",
+    icon: "i-lucide-info",
+    to: "/about/",
   },
   {
-    label: 'GitHub',
-    icon: 'i-simple-icons-github',
-    badge: '6k',
-    to: 'https://github.com/nuxt/ui',
-    target: '_blank'
+    label: "Home",
+    icon: "i-lucide-house",
+    to: "/",
+    disabled: false,
   },
-  {
-    label: 'Home',
-    icon: 'i-lucide-house',
-	to:"/",
-    disabled: false
-  }
-])
+]);
 </script>
-
 <template>
-  <UNavigationMenu :items="items" />
+    <UNavigationMenu :items="items" />
 </template>
