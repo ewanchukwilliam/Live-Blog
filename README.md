@@ -9,8 +9,7 @@ A blog platform about AI - being rewritten from Django to Spring Boot + Vue.js.
 - [ ] MongoDB
 
 # TODO
-- [ ] Update text on /about
-- [ ] Update Language on index.vue
+- [ ] Update Language 
 - [ ] Clean up Header Links
 - [ ] Structure the Datatypes for the Blogs
 - [ ] Decide what backend
