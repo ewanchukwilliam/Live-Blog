@@ -46,6 +46,13 @@ const placeholderLinks = [
         <p class="text-muted mt-4">
           Placeholder content for getting started section.
         </p>
+        <UButton
+          icon="i-lucide-rocket"
+          size="md"
+          color="primary"
+          variant="solid"
+          to="/about/"
+		>About</UButton>
       </section>
 
       <div class="min-w-full flex justify-center">

@@ -24,5 +24,9 @@
     "eslint": "^9.39.2",
     "nuxt": "^4.3.0",
     "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.89",
+    "@iconify-json/simple-icons": "^1.2.69"
   }
 }
