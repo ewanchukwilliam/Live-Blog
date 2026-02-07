@@ -2,6 +2,9 @@
 
 Personal blog and portfolio site.
 
+# TODO:
+- [ ] finish the auth route
+
 ## Tech Stack
 
 - **Nuxt 4** - Vue framework with SSR

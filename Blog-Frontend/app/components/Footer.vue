@@ -14,7 +14,7 @@ const items: NavigationMenuItem[] = [
 <template>
   <UFooter>
     <template #left>
-      <p class="text-muted text-sm">Copyright © {{ new Date().getFullYear() }}</p>
+      <p class="text-muted text-sm">William Ewanchuk · {{ new Date().getFullYear() }}</p>
     </template>
 
     <UNavigationMenu :items="items" variant="link" />
