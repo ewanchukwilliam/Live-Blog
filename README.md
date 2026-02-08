@@ -4,6 +4,7 @@ Personal blog and portfolio site.
 
 # TODO:
 - [ ] finish the auth route
+- [ ] Add image support for the markdown files
 
 ## Tech Stack
 
