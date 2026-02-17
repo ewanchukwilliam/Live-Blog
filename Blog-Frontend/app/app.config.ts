@@ -43,5 +43,9 @@ export default defineAppConfig({
 				links: "flex flex-wrap gap-x-6 gap-y-3",
 			},
 		},
+
+		pageBody: {
+			base: "mt-8 pb-24 space-y-8",
+		},
 	},
 });

@@ -70,4 +70,8 @@ export default defineNuxtConfig({
 			],
 		},
 	},
+	experimental: {
+		asyncContext: false,
+		payloadExtraction: true, // setting this to true avoided the issue for them
+	},
 });

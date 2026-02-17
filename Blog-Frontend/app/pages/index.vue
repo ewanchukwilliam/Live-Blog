@@ -40,15 +40,15 @@ const links = ref<ContentTocLink[]>([
     </template>
 
     <UPageBody>
-      <section class="scroll-mt-20 py-8">
-        <h2 id="latest-posts" class="text-2xl font-bold scroll-mt-20">
+      <section class="scroll-mt-20">
+        <h2 id="latest-posts" class="text-2xl font-bold">
           Latest Posts
         </h2>
-        <p class="text-muted">Check out my latest posts and articles.</p>
+        <p class="text-muted mb-2">Check out my latest posts and articles.</p>
         <Posts />
       </section>
 
-      <section class="scroll-mt-20 py-8">
+      <section class="scroll-mt-20 ">
         <h2 id="introduction" class="text-2xl font-bold scroll-mt-20">
           Introduction
         </h2>
@@ -94,7 +94,7 @@ const links = ref<ContentTocLink[]>([
         </div>
       </section>
 
-      <section class="scroll-mt-20 py-8">
+      <section class="scroll-mt-20">
         <h2 id="getting-started" class="text-2xl font-bold scroll-mt-20">
           Getting Started
         </h2>
