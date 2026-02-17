@@ -62,7 +62,16 @@ const links = ref<ContentTocLink[]>([
         <Posts />
       </section>
 
-      <section class="scroll-mt-20">
+      <section
+        class="scroll-mt-20"
+        v-motion
+        :initial="{ opacity: 0, y: 100 }"
+        :enter="{
+          opacity: 1,
+          y: 0,
+          transition: { delay: 600, duration: 1000, easing: 'easeOut' },
+        }"
+      >
         <h2 id="introduction" class="text-2xl font-bold scroll-mt-20">
           Introduction
         </h2>
@@ -108,7 +117,16 @@ const links = ref<ContentTocLink[]>([
         </div>
       </section>
 
-      <section class="scroll-mt-20">
+      <section
+        class="scroll-mt-20"
+        v-motion
+        :initial="{ opacity: 0, y: 100 }"
+        :enter="{
+          opacity: 1,
+          y: 0,
+          transition: { delay: 800, duration: 1000, easing: 'easeOut' },
+        }"
+      >
         <h2 id="getting-started" class="text-2xl font-bold scroll-mt-20">
           Getting Started
         </h2>
