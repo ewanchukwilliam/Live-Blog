@@ -17,13 +17,28 @@ const versions = computed(() =>
 </script>
 
 <template>
-
 	<UPage v-motion-fade>
-      <UPageHeader
-		class="mb-4"
-        title="Welcome to this blog"
-        description="A single place to view all blogs I've written to date"
-      />
-		<UChangelogVersions :versions="versions" />
+		<UPageHeader
+			v-motion
+			:initial="{ opacity: 0, y: 50 }"
+			:enter="{
+				opacity: 1,
+				y: 0,
+				transition: { delay: 200, duration: 800, easing: 'easeOut' },
+			}"
+			class="mb-4"
+			title="Welcome to this blog"
+			description="A single place to view all blogs I've written to date"
+		/>
+		<UChangelogVersions
+			v-motion
+			:initial="{ opacity: 0, y: 50 }"
+			:enter="{
+				opacity: 1,
+				y: 0,
+				transition: { delay: 400, duration: 800, easing: 'easeOut' },
+			}"
+			:versions="versions"
+		/>
 	</UPage>
 </template>

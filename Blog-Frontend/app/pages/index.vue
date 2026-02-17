@@ -26,9 +26,16 @@ const links = ref<ContentTocLink[]>([
 </script>
 
 <template>
-  <UPage v-motion-fade>
+  <UPage v-motion-fade >
     <template #left>
-      <UPageAside>
+      <UPageAside
+        v-motion
+        :initial="{ opacity: 0, x: -100 }"
+        :enter="{
+          opacity: 1,
+          x: 0,
+          transition: { delay: 0, duration: 1000, easing: 'easeOut' },
+        }" >
         <UContentToc
           :links="links"
           title="On this page"
@@ -40,15 +47,22 @@ const links = ref<ContentTocLink[]>([
     </template>
 
     <UPageBody>
-      <section class="scroll-mt-20">
-        <h2 id="latest-posts" class="text-2xl font-bold">
-          Latest Posts
-        </h2>
+      <section
+        class="scroll-mt-20"
+        v-motion
+        :initial="{ opacity: 0, y: 100 }"
+        :enter="{
+          opacity: 1,
+          y: 0,
+          transition: { delay: 400, duration: 1000, easing: 'easeOut' },
+        }"
+      >
+        <h2 id="latest-posts" class="text-2xl font-bold">Latest Posts</h2>
         <p class="text-muted mb-2">Check out my latest posts and articles.</p>
         <Posts />
       </section>
 
-      <section class="scroll-mt-20 ">
+      <section class="scroll-mt-20">
         <h2 id="introduction" class="text-2xl font-bold scroll-mt-20">
           Introduction
         </h2>
@@ -89,7 +103,7 @@ const links = ref<ContentTocLink[]>([
           </p>
           <h2>Languages:</h2>
           <p class="text-muted">
-			Python, Typescript, Java, (Go in the future someday)
+            Python, Typescript, Java, (Go in the future someday)
           </p>
         </div>
       </section>
