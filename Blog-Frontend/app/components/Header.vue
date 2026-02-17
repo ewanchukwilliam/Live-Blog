@@ -8,7 +8,7 @@
     <template #right>
       <AccountState />
     </template>
-      <!-- This is for the Collapsed Hamburger view on the mobile view -->
+      <!-- This is for the Collapsed Hamburger menu items on the mobile view -->
     <template #body>
       <NavigationMenu orientation="vertical" class="w-full" />
     </template>
