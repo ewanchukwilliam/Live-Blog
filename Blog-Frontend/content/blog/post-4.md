@@ -22,7 +22,7 @@ He actually wanted to help me grow as a developer. He was willing to slow down f
 
 My choice in editor got in the way of that. Every debugging issue, every obscure task like global find and replace, was always different for me. I'd have to drop out of the meeting, build the solution or configure it, then rejoin hours later once it's ready. I started avoiding one-on-ones so I could keep my workflow and not have to answer for its shortcomings.
 
-That experience is what's inspiring this.
+That experience is what inspired this stress test.
 
 ## The real problem
 
@@ -38,15 +38,11 @@ So here's the deal. I'm building a Spring Boot backend for an ecommerce app for 
 
 If it's not as flexible as I was hoping then the quirks of open source aren't worth the trouble. It would be time to simplify my configurations to a more vim-like setup. If Neovim cannot handle this backend then it's going to continue eating into valuable time that could have been better spent just building and gaining experience. I'm a fan of exponential development and if it cannot do Java then it is not exponential.
 
-## Moving forward
+I was ready to migrate completely to a new IDE. JetBrains, VSCode, whatever it took. I was not going to make my past mistakes again.
 
-I can't imagine a world in which I couldn't just develop with vim on its own. That one seems much more globally compatible. Solving all of my own problems has served me well but I lost opportunities to grow by not being more open minded.
+---
 
-If need be I'm absolutely willing to migrate over completely to a new IDE. JetBrains for everything if vim doesn't pan out, or even just VSCode. I will make the move. I will not make my past mistakes again.
-
-No rugrats.
-
-# Post SpringBoot
+# The results
 
 ```lua
 return {
@@ -58,14 +54,16 @@ return {
 }
 ```
 
-That is all it took. I now have beautiful auto completions. Snippet completions. Absolutely everything I would ever need to work in java development. It works so well, and so so so so cleanly. my god I was worried for very literally nothing. 
+That is all it took. I was worried for literally nothing.
 
-the nvim-java plugin just works with maven. it sees the entire project directory structure automatigically. I love it. absolutely nothing needed to be configured by me like with nvim-jdtls. God bless. 
+Beautiful autocompletions. Snippet completions. Everything I would ever need for Java development. The nvim-java plugin just works with Maven. It sees the entire project directory structure automatically. Nothing needed to be configured by me like with nvim-jdtls.
 
-This works even better for autocompletions than Django's backend. Auto completions for that backend NEVER worked for anything. It was always a mess of guessing the import paths/folders/methods until you saved the file. It is so freaking clean I love it. I never want to work without a typesafe backend ever again. its the most beautiful thing I have ever worked with.
+This works even better than Django's backend. Autocompletions for that backend never worked for anything. It was always a mess of guessing import paths and methods until you saved the file. I never want to work without a typesafe backend ever again.
 
-## HELLO SPRINGBOOT
+## Hello Spring Boot
 
-the project structures just make sense. The way things are divided up structre wise. Tables are already mapped from class objects to tables structures. djangos orm was impossible to get a field autocompletinon annotation out of. IT JUST WORKS IN JAVA. My god I could cry :') its so beautiful. 
+The project structures just make sense. The way things are divided up. Tables are already mapped from class objects to table structures. Django's ORM was impossible to get a field autocompletion annotation out of. It just works in Java. I could cry.
 
-Where have you been all my life. The dependancy management. The everything. Its so freaking clean and beautiful.  
+Where have you been all my life. The dependency management. The everything. It's so clean. Even the JDTLS code actions work. You can still generate constructors, getters, setters. It's too clean.
+
+No rugrats.
