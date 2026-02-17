@@ -46,3 +46,26 @@ If need be I'm absolutely willing to migrate over completely to a new IDE. JetBr
 
 No rugrats.
 
+# Post SpringBoot
+
+```lua
+return {
+	'nvim-java/nvim-java',
+	config = function()
+		require('java').setup()
+		vim.lsp.enable('jdtls')
+	end,
+}
+```
+
+That is all it took. I now have beautiful auto completions. Snippet completions. Absolutely everything I would ever need to work in java development. It works so well, and so so so so cleanly. my god I was worried for very literally nothing. 
+
+the nvim-java plugin just works with maven. it sees the entire project directory structure automatigically. I love it. absolutely nothing needed to be configured by me like with nvim-jdtls. God bless. 
+
+This works even better for autocompletions than Django's backend. Auto completions for that backend NEVER worked for anything. It was always a mess of guessing the import paths/folders/methods until you saved the file. It is so freaking clean I love it. I never want to work without a typesafe backend ever again. its the most beautiful thing I have ever worked with.
+
+## HELLO SPRINGBOOT
+
+the project structures just make sense. The way things are divided up structre wise. Tables are already mapped from class objects to tables structures. djangos orm was impossible to get a field autocompletinon annotation out of. IT JUST WORKS IN JAVA. My god I could cry :') its so beautiful. 
+
+Where have you been all my life. The dependancy management. The everything. Its so freaking clean and beautiful.  
