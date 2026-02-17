@@ -26,7 +26,7 @@ if (!page.value) {
             <p class="font-semibold">William Ewanchuk</p>
             <p class="text-sm text-muted">Author</p>
           </div>
-          <UAvatar src="/avatar.jpg" alt="William Ewanchuk" size="lg" />
+          <UAvatar src="/images/avatar.png" alt="William Ewanchuk" size="lg" />
         </div>
       </div>
 
