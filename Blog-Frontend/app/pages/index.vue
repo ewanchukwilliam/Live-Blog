@@ -164,6 +164,9 @@ const links = ref<ContentTocLink[]>([
             >
               Contact
             </UButton>
+
+
+        <!-- TODO: Remember to clean up this 404 error please -->
             <UButton
               icon="i-lucide-alert-triangle"
               size="md"
