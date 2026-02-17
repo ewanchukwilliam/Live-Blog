@@ -6,7 +6,11 @@
     </template>
     <NavigationMenu />
     <template #right>
-		<AccountState/>
+      <AccountState />
+    </template>
+      <!-- This is for the Collapsed Hamburger view on the mobile view -->
+    <template #body>
+      <NavigationMenu orientation="vertical" class="w-full" />
     </template>
   </UHeader>
 </template>
