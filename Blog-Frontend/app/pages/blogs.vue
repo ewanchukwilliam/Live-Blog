@@ -9,7 +9,8 @@ const versions = computed(() =>
     date: blog.date || '',
     to: blog.path,
     ui: {
-      container: 'max-w-lg'
+      container: 'max-w-lg lg:gap-y-4!'
+
     }
   })) || []
 )
@@ -21,8 +22,7 @@ const versions = computed(() =>
       <UPageHeader
 		class="mb-4"
         title="Welcome to this blog"
-        description="view all updated blogs surrounding this topic"
-
+        description="A single place to view all blogs I've written to date"
       />
 		<UChangelogVersions :versions="versions" />
 	</UPage>

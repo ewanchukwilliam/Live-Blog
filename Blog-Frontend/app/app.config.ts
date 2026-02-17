@@ -45,7 +45,13 @@ export default defineAppConfig({
 		},
 
 		pageBody: {
-			base: "mt-8 pb-24 space-y-8",
+			base: "mt-4 pb-12 space-y-8",
 		},
+
+		changelogVersions:{
+			slots: {
+				container: 'lg:gap-y-8'
+			}
+		}
 	},
 });
