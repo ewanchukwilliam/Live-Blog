@@ -1,6 +1,6 @@
 <template>
 	<UPage v-motion-fade>
-		<PageHero
+		<div
 			v-motion
 			:initial="{ opacity: 0, y: 50 }"
 			:enter="{
@@ -8,6 +8,9 @@
 				y: 0,
 				transition: { delay: 200, duration: 800, easing: 'easeOut' },
 			}"
-		/>
+			class="flex min-h-[80vh] items-center justify-center"
+		>
+			<PageHero />
+		</div>
 	</UPage>
 </template>
