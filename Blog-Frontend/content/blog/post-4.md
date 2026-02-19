@@ -1,6 +1,6 @@
 ---
-title: My Neovim Stress Test
-description: This is an overdue career stress test for my choice in editor.
+title: My choice in Editor
+description: This is an overdue career stress test for my past choices in development direction.
 date: 2026-01-17
 ---
 
