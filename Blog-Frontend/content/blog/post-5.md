@@ -63,3 +63,41 @@ Resistance is something I've learned I have control over. In the past few years 
 
 I get why kicking back and taking it easy is sometimes necessary, and it's tough to know when you have opportunities to do so. But you're either growing or dying. You either grow or shrivel, and I'd like to think I'm not at the tail end of my growth curve yet. I feel like I have much more I'd like to accomplish. Thus today I realistically consider removing video games altogether from my life.
 
+## Cool Side Note
+I configured a dev-docs plugin to hopefully support my development journey with staying closer to the documentation. Holy crap its better than google. I always wondered how the leetcode wizards figured their stuff out. I think I know now how they got to where they were. 
+
+It's always crazy to me to me how many different ways there are to learning web development. There are ways to download this documentation locally completely offline. It's amazing to be indexed 
+
+### [Dev-Docs Weblink](https://devdocs.io/)
+
+## Its Too Damn Clean. No internet required.
+
+ All this documentation fuzzy searchable with a keyboard shortcut! I had no idea the root documentation was so explicit and well made. 
+
+```js
+(a, b, ...r) => expression
+(a = 400, b = 20, c) => expression
+([a, b] = [10, 20]) => expression
+({ a, b } = { a: 10, b: 20 }) => expression
+
+```
+
+```js
+// Traditional anonymous function
+(function (a) {
+  return a + 100;
+});
+
+// 1. Remove the word "function" and place arrow between the argument and opening body brace
+(a) => {
+  return a + 100;
+};
+
+// 2. Remove the body braces and word "return" — the return is implied.
+(a) => a + 100;
+
+// 3. Remove the parameter parentheses
+a => a + 100;
+
+```
+
