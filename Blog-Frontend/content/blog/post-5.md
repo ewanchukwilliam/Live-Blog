@@ -34,7 +34,7 @@ To summarize: when I have a browser mess and revisit my project often, I know I'
 
 <div class="flex flex-row justify-center items-center gap-8">
     <img src="images/admin-panel.png" alt="Ecommercy Admin " style="max-width: 600px; corder-radius 8px"/>
-    <img src="images/admin-item-panel.png" alt="Ecommercy Admin Item Creation pal I've been working on" style="max-width: 700px; corder-radius 8px"/>
+    <img src="images/admin-item-panel.png" alt="Ecommercy Admin Item Creation pal I've been working on" style="max-width: 600px; corder-radius 8px"/>
 </div>
 
 Theres aren't complete dashboards as they are filled with dummy data. But it helps me to know when something is complete to know to incrementally to switch between tasks. AI is great for dummy data. I find myself just staring at these knowing I'm able to just slap this into existence. 
