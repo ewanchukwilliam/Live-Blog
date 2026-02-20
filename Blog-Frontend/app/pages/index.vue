@@ -47,7 +47,7 @@ const links = ref<ContentTocLink[]>([
     </template>
 
 		<div class="min-w-full flex flex-col items-center">
-			<UPageBody class="max-w-4xl">
+			<UPageBody class="max-w-5xl">
 				<section
 					class="scroll-mt-20"
 					v-motion

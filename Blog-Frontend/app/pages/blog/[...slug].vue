@@ -17,10 +17,10 @@ if (!page.value) {
 <template>
   <UPage>
     <UPageBody class="flex flex-col items-center min-w-full">
-      <ContentRenderer v-if="page" :value="page" class="max-w-4xl flex-row"/>
+      <ContentRenderer v-if="page" :value="page" class="max-w-5xl flex-row"/>
 
       <!-- Author section -->
-			<div class="flex flex-row justify-between min-w-4xl">
+			<div class="flex flex-row justify-between min-w-5xl">
 
 				<!-- Comments section -->
 				<section class="mt-8">
