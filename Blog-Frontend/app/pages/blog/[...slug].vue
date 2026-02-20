@@ -16,8 +16,8 @@ if (!page.value) {
 
 <template>
   <UPage>
-    <UPageBody>
-      <ContentRenderer v-if="page" :value="page" />
+    <UPageBody class="flex flex-col items-center min-w-full">
+      <ContentRenderer v-if="page" :value="page" class="max-w-4xl"/>
 
       <!-- Author section -->
       <div class="flex justify-end mt-12">
