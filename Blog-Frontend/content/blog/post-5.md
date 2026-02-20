@@ -36,8 +36,11 @@ To summarize: when I have a browser mess and revisit my project often, I know I'
     <img src="images/admin-panel.png" alt="Ecommercy Admin " style="max-width: 600px; corder-radius 8px"/>
     <img src="images/admin-item-panel.png" alt="Ecommercy Admin Item Creation pal I've been working on" style="max-width: 600px; corder-radius 8px"/>
 </div>
+## Ecommerce for Amy (surprise if you end up reading this)
 
-Theres aren't complete dashboards as they are filled with dummy data. But it helps me to know when something is complete to know to incrementally to switch between tasks. AI is great for dummy data. I find myself just staring at these knowing I'm able to just slap this into existence. 
+Theres aren't complete dashboards as they are filled with dummy data. But it helps me to know when something is complete to know to incrementally to switch between tasks. AI is great for dummy data. I find myself just staring at these knowing I'm able to just slap this into existence. This project has been insanely rewarding to work on. I just finished wrapper routers on the frontend and the backend. I can now automatically protect any routes I create on the application. Everything looks aboslutely beautiful. Springboot is an amazing service. The backend and frontend truly are complete domains in an of themselves both obviously have their own significant ranges of complexity. 
+
+Its been wird to see how much I've been enjoying both. for context this is going to be a surprise website for my sister to be able to ship her products for her business (should she choose to use it).
 
 ## TODOs as a Tool
 This feels like a whole new world. It always bugged me to run into multiple issues at once. Say your DB route isn't fully configured with business logic but the HTTP route is fully tested and working. You want to make sure the frontend design would work for your use case so you quickly test things, but you don't want to forget to implement the business logic later.
@@ -59,3 +62,4 @@ I'm leaning towards three options: Ubuntu for the server experience, Omarchy for
 Resistance is something I've learned I have control over. In the past few years it's been my cheat code for growing as a person. I see the value in that absolutely. Being strategic with it isn't something I see people do very often.
 
 I get why kicking back and taking it easy is sometimes necessary, and it's tough to know when you have opportunities to do so. But you're either growing or dying. You either grow or shrivel, and I'd like to think I'm not at the tail end of my growth curve yet. I feel like I have much more I'd like to accomplish. Thus today I realistically consider removing video games altogether from my life.
+
