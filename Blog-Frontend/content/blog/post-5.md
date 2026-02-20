@@ -32,6 +32,13 @@ Another metric I want to track is how happy I am with the product I'm building. 
 
 To summarize: when I have a browser mess and revisit my project often, I know I've moved in the right direction.
 
+<div class="flex flex-row justify-center items-center gap-8">
+    <img src="images/admin-panel.png" alt="Ecommercy Admin " style="max-width: 600px; corder-radius 8px"/>
+    <img src="images/admin-item-panel.png" alt="Ecommercy Admin Item Creation pal I've been working on" style="max-width: 700px; corder-radius 8px"/>
+</div>
+
+Theres aren't complete dashboards as they are filled with dummy data. But it helps me to know when something is complete to know to incrementally to switch between tasks. AI is great for dummy data. I find myself just staring at these knowing I'm able to just slap this into existence. 
+
 ## TODOs as a Tool
 This feels like a whole new world. It always bugged me to run into multiple issues at once. Say your DB route isn't fully configured with business logic but the HTTP route is fully tested and working. You want to make sure the frontend design would work for your use case so you quickly test things, but you don't want to forget to implement the business logic later.
 
