@@ -68,6 +68,10 @@ Where have you been all my life. The dependency management. The everything. It's
 
 ## So All is extremely well
 
+<div class="flex flex-row justify-center items-center gap-8">
+    <img src="images/no-ragrets.png" alt="No ragrets" style="max-width: 500px; corder-radius 8px"/>
+</div>
+
 If anything its improving some neovim configurations I hadn't correctly configured due to working with languages with worse lsp autocompletions. The default springboot jdlt configuration is so clean it's letting me debug configurations I've been raw dogging for years without knowing was incorrectly configured. like my treesitter plugin was overriding my snacks.nvim plugin for go to definition. Sometimes on occasion it just wouldnt work so I'd restart but with java it was so clean I could actually pinpoint it with the lsp error messages. The verbosity and completeness of everything is so GOOD. 
 
 Very happy to be working with this backend. It's a very welcome change of pace from an ever revolving door of changes from my experience with the faster iteration languages. There are just so many gotchas with the freedom of python and javascript its so easy to make a mess and not ever find out theres patterns you could follow that are better. I'm learning that I really enjoy the opinionated nature of java. its specific language implementation details and the syntax I was taught seems so irrelevent to the actual language as a whole. The design patterns I can see are where it really does shine. It feels more mature. it feels clean. I don't know how else to describe it.
@@ -77,3 +81,4 @@ I honestly just feel like the way it enforces encapsulation of everything is tea
 with python it just felt like make it work. Move on. 
 
 I am very glad to have decided to work with this backend specifically. I was right in my earlier post about being worried about backend implementations. I do enjoy working from the backend. I just didnt like the freedom that python enabled for the backend. I'm glad that I'm actually enjoying designing the backend. 
+
