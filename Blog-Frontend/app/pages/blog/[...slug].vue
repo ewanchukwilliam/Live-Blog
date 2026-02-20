@@ -17,26 +17,29 @@ if (!page.value) {
 <template>
   <UPage>
     <UPageBody class="flex flex-col items-center min-w-full">
-      <ContentRenderer v-if="page" :value="page" class="max-w-4xl"/>
+      <ContentRenderer v-if="page" :value="page" class="max-w-4xl flex-row"/>
 
       <!-- Author section -->
-      <div class="flex justify-end mt-12">
-        <div class="flex items-center gap-3">
-          <div class="text-right">
-            <p class="font-semibold">William Ewanchuk</p>
-            <p class="text-sm text-muted">Author</p>
-          </div>
-          <UAvatar src="/images/avatar.png" alt="William Ewanchuk" size="lg" />
-        </div>
-      </div>
+			<div class="flex flex-row justify-between min-w-4xl">
 
-      <!-- Comments section -->
-      <UDivider class="my-8" />
-      <section class="mt-8">
-        <h2 class="text-2xl font-bold mb-4">Comments</h2>
-        <p class="text-muted">Comments coming soon...</p>
-        <!-- TODO: Add your comment component here -->
-      </section>
+				<!-- Comments section -->
+				<section class="mt-8">
+					<h2 class="text-2xl font-bold mb-4">Comments</h2>
+					<p class="text-muted">Comments coming soon...</p>
+					<!-- TODO: Add your comment component here -->
+				</section>
+
+				<div class="flex justify-end mt-12">
+					<div class="flex items-center gap-3">
+						<div class="text-right">
+							<p class="font-semibold">William Ewanchuk</p>
+							<p class="text-sm text-muted">Author</p>
+						</div>
+						<UAvatar src="/images/avatar.png" alt="William Ewanchuk" size="lg" />
+					</div>
+				</div>
+
+			</div>
     </UPageBody>
 
     <template v-if="page?.body?.toc?.links?.length" #right >
