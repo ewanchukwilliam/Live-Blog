@@ -88,7 +88,7 @@ const links = ref<ContentTocLink[]>([
 					</p>
 
 					<div class="mt-6">
-						<h3 id="about-me" class="text-xl font-semibold scroll-mt-20">
+						<h3 id="about-me" class="text-xl font-semibold scroll-mt-20 mb-3">
 							About Me
 						</h3>
 						<p class="text-muted">
@@ -104,17 +104,21 @@ const links = ref<ContentTocLink[]>([
 					</div>
 
 					<div class="mt-6">
-						<h3 id="my-stack" class="text-xl font-semibold scroll-mt-20">
+						<h3 id="my-stack" class="text-xl font-semibold scroll-mt-20 mb-3">
 							My Stack's
 						</h3>
-						<h2>Frameworks:</h2>
-						<p class="text-muted">
-							Kubernetes, Docker, Django, React, Next/Nuxts, Express, Springboot
-						</p>
-						<h2>Languages:</h2>
-						<p class="text-muted">
-							Python, Typescript, Java, (Go in the future someday)
-						</p>
+						<div>
+							<h4 class="font-medium">Frameworks:</h4>
+							<p class="text-muted mt-1">
+								React, Next/Nuxts, Express, Springboot, Django, Kubernetes, Docker
+							</p>
+						</div>
+						<div class="mt-3">
+							<h4 class="font-medium">Languages:</h4>
+							<p class="text-muted mt-1">
+								Python, Typescript, Java, (Go in the future someday)
+							</p>
+						</div>
 					</div>
 				</section>
 

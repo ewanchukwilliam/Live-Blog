@@ -2,7 +2,7 @@
 onMounted(async () => {
   const { default: Typeit } = await import("typeit");
   const title = document.querySelector("[data-slot='title']") as HTMLElement;
-  let delay = 3000;
+  let delay = 5000;
   if (title) {
     title.textContent = "";
     new Typeit(title)
