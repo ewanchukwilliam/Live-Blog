@@ -50,7 +50,7 @@ export default defineAppConfig({
 
 		changelogVersions:{
 			slots: {
-				container: 'lg:gap-y-8'
+				container: 'lg:gap-y-12'
 			}
 		}
 	},

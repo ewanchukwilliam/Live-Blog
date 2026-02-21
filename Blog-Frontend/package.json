@@ -23,7 +23,8 @@
     "better-sqlite3": "^12.6.2",
     "eslint": "^9.39.2",
     "nuxt": "^4.3.0",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.1.18",
+    "typeit": "^8.8.7"
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.89",

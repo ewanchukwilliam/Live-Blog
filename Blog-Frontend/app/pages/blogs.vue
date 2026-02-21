@@ -26,7 +26,7 @@ const versions = computed(() =>
 				y: 0,
 				transition: { delay: 200, duration: 800, easing: 'easeOut' },
 			}"
-			class="mb-4"
+			class="mb-4 flex"
 			title="Welcome to this blog"
 			description="A single place to view all blogs I've written to date"
 		/>
@@ -39,6 +39,7 @@ const versions = computed(() =>
 				transition: { delay: 400, duration: 800, easing: 'easeOut' },
 			}"
 			:versions="versions"
+			class="lg:min-w-7xl"
 		/>
 	</UPage>
 </template>

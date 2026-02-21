@@ -74,30 +74,50 @@ It's always crazy to me to me how many different ways there are to learning web 
 
  All this documentation fuzzy searchable with a keyboard shortcut! I had no idea the root documentation was so explicit and well made. 
 
-```js
-(a, b, ...r) => expression
-(a = 400, b = 20, c) => expression
-([a, b] = [10, 20]) => expression
-({ a, b } = { a: 10, b: 20 }) => expression
-
-```
+### Using arrow functions
 
 ```js
-// Traditional anonymous function
-(function (a) {
-  return a + 100;
-});
+// An empty arrow function returns undefined
+const empty = () => {};
 
-// 1. Remove the word "function" and place arrow between the argument and opening body brace
-(a) => {
-  return a + 100;
-};
+(() => "foobar")();
+// Returns "foobar"
+// (this is an Immediately Invoked Function Expression)
 
-// 2. Remove the body braces and word "return" — the return is implied.
-(a) => a + 100;
+const simple = (a) => (a > 15 ? 15 : a);
+simple(16); // 15
+simple(10); // 10
 
-// 3. Remove the parameter parentheses
-a => a + 100;
+const max = (a, b) => (a > b ? a : b);
+
+// Easy array filtering, mapping, etc.
+const arr = [5, 6, 13, 0, 1, 18, 23];
+
+const sum = arr.reduce((a, b) => a + b);
+// 66
+
+const even = arr.filter((v) => v % 2 === 0);
+// [6, 0, 18]
+
+const double = arr.map((v) => v * 2);
+// [10, 12, 26, 0, 2, 36, 46]
+
+// More concise promise chains
+promise
+  .then((a) => {
+    // …
+  })
+  .then((b) => {
+    // …
+  });
+
+// Arrow functions without parameters
+setTimeout(() => {
+  console.log("I happen sooner");
+  setTimeout(() => {
+    // deeper code
+    console.log("I happen later");
+  }, 1);
+}, 1);
 
 ```
-
