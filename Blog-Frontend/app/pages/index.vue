@@ -1,6 +1,27 @@
 <script setup lang="ts">
 import type { ContentTocLink } from "@nuxt/ui";
 
+onMounted(async () => {
+  const { default: Typeit } = await import("typeit");
+  const title = document.querySelector("h2") as HTMLElement;
+  let delay = 8000;
+  if (title) {
+	const placeholder = title.textContent;
+    title.textContent = "";
+    new Typeit(title, { loop: true, cursor: false, speed:100})
+      .type(placeholder.toString())
+      .pause(delay)
+      .delete()
+      .type("Terminal Lover")
+      .pause(delay)
+      .delete()
+      .type("Buy Me a Coffee!")
+      .pause(delay)
+      .delete()
+      .go();
+  }
+});
+
 const links = ref<ContentTocLink[]>([
   {
     id: "latest-posts",
