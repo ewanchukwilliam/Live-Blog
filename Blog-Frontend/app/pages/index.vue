@@ -1,19 +1,6 @@
 <script setup lang="ts">
 import type { ContentTocLink } from "@nuxt/ui";
 
-onMounted(async () => {
-  const { default: Typeit } = await import("typeit");
-  const heading = document.querySelector("h1");
-  if (heading) {
-	heading.textContent = "";
-    new Typeit(heading, {
-      strings: [page.value?.title ?? ""],
-      speed: 50,
-      cursor: true,
-    }).go();
-  }
-});
-
 const links = ref<ContentTocLink[]>([
   {
     id: "latest-posts",
