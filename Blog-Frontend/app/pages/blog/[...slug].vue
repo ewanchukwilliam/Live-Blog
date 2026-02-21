@@ -7,7 +7,7 @@ onMounted(async () => {
     new Typeit(heading, {
       strings: [page.value?.title ?? ""],
       speed: 50,
-      cursor: true,
+      cursor: false,
     }).go();
   }
 });

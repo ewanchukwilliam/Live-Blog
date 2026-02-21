@@ -68,6 +68,7 @@ I configured a dev-docs plugin to hopefully support my development journey with 
 
 It's always crazy to me to me how many different ways there are to learning web development. There are ways to download this documentation locally completely offline. It's amazing to be indexed 
 
+### [Dev Docs Neovim Plugin](https://github.com/luckasRanarison/nvim-devdocs)
 ### [Dev-Docs Weblink](https://devdocs.io/)
 
 ## Its Too Damn Clean. No internet required.
