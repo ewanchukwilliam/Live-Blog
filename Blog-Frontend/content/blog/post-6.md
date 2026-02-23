@@ -14,9 +14,9 @@ Strangely, imposter syndrome is not something I've felt much, which is odd compa
 
 ## When it finally hit
 
-That immunity wore off recently. The realization was blunt: my ability to write software from scratch had quietly atrophied. After my first internship, I felt genuinely unqualified to be interviewing again. I'd worked with PostgreSQL and Redis nearly every day, but I hadn't built any of those systems myself. I understood the surface, not the structure.
+That immunity wore off recently, though not because of my internship. The internship was genuinely valuable — I'll come back to that. The problem was what came after it. I went a full semester without writing much code at all, and by the time I started looking for work again, the atrophy was obvious. I'd worked with PostgreSQL and Redis nearly every day at that job, but operating within an existing system is different from building one. I understood the surface, not the structure, and a semester of inactivity made that gap impossible to ignore.
 
-The semester before I started looking for work again, I barely coded at all. Part of that was a deliberate choice (more on that in a moment), but the result was the same. I showed up to the job hunt feeling behind. I barely touched up my resume despite having real things to add, not out of laziness but out of a paralysis about claiming credit for work I wasn't sure I fully understood.
+I barely touched up my resume despite having real things to add, not out of laziness but out of a paralysis about claiming credit for work I wasn't sure I fully understood.
 
 The job market didn't help. Knowing that three other people would take your spot if you slipped makes it hard to feel secure. That's really all imposter syndrome is: a rational anxiety about replaceability. The walls aren't imaginary. They are closing in, for everyone. The question is just what you're doing about it.
 
@@ -57,3 +57,11 @@ I think what I'm doing now is the cure. Building again has given me a certainty 
 There will be setbacks. The job market is difficult, the field moves fast, and I'm still junior by most measures. But as long as I don't stop building, I think I'll be okay.
 
 Plus it's tech. Trump can't nuke the global economy for that much longer... can he?
+
+## One more thing
+
+I want to be clear about something: my internship taught me an enormous amount. I learned how to ship production code, how teams actually coordinate on a codebase, how to work within real constraints, and how to push through problems that don't have a clean answer. Those aren't small things. Before it, I'd quietly avoid things like asynchronous redis worker jobs or WebSocket connections and stick to what I already knew. By the end, I wasn't doing that anymore.
+
+What it also gave me, maybe more than anything, was the confidence that I could build anything if I needed to. There was no secret ingredient. The engineers I worked with were experienced because they had shipped a lot, not because they had access to knowledge I didn't. The gap between junior and senior is mostly just volume of hard problems worked through. They'll outpace you in almost every way, but they're still learning too.
+
+That realization has carried over into everything since. I can now pick up an unfamiliar framework and make real design decisions with it from day one. The framework is just a checklist of requirements. The thinking underneath it is the same, and the internship is a big part of why I believe that.
