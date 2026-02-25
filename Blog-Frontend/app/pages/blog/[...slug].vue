@@ -33,7 +33,7 @@ if (!page.value) {
       <ContentRenderer v-if="page" :value="page" class="max-w-5xl flex-row" />
 
       <!-- Author section -->
-      <div class="flex flex-row justify-between">
+      <div class="flex flex-row justify-between min-w-full">
         <!-- Comments section -->
         <section class="mt-8">
           <h2 class="text-2xl font-bold mb-4">Comments</h2>
