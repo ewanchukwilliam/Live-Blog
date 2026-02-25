@@ -4,48 +4,75 @@ description: I go over the take home exam I received from the HiFinance team
 date: 2026-02-24
 ---
 
-# My first attempt at a take home exam  
+# My first attempt at a take home exam
 
-To preface I was late in this application entirely. At the University of alberta There's a co-op job board that post's listings for co-op students to apply for. I had been watching this application for a while as it was a bit more focusd an late stage start up wise than my previous internship. 
+To preface — I was late on this application entirely. At the University of Alberta there's a co-op job board that posts listings for students to apply for. I had been watching this one for a while. The company felt more focused as a later-stage startup than my previous internship, and they already seemed to have a stronger university presence and a larger existing customer base.
 
-They seemed to already have much more of a university presence and had a larger existing customer base. I won't get too much inot detial about them but they are AI oriented and claude and didn't require a technical portion. But the did have a take home exam to complete. 
+I won't get too deep into detail about them, but they are AI-oriented and didn't require a technical interview. They did, however, have a take home exam to complete.
 
-I missed the deadline preparing my resume the night before the cut-off. entirely my fault but I checked their online posting and found that it was still open so I emailed the hiring manager Mike directly. #ProTip He was very friendly and understanding of my situation and actually said it was better for visibility that I had reached out and that it would be fine to complete the exam later. 
+I missed the deadline while finishing up my resume the night before the cut-off — entirely my fault. But when I checked their online posting, it was still open, so I emailed the hiring manager Mike directly. He was very friendly and understanding, and actually said it was better for visibility that I had reached out. It would be fine to complete the exam a bit later.
 
-## The take home exam I completed.
+**Pro tip:** don't be afraid to email hiring managers directly. The worst they can say is no.
 
-It was in a Next.js and FastApi codebase. Immediately off the bat the exam was to implement an information page for individual clients that has the ability to add additional notes and the ability to create clients. when I had reached out over email he actually gave me an email hint to go above and beyond and to be more thoughtful of the user experience, and to not just throw AI at the problem and to read the code. 
+## The take home exam
 
-This proved very useful and actually let me have some creative freedom with my implementation. I took a bit more time to plan out everything for my feature and to read through everything to completee. which it unfortunately revealed that the codebase was using Mantine for styling. I really really wanted to rewrite in tailwind so I could add shadcn to really wow them with a fancy table dashboard but part of the requirements of that assignment was to match and follow existing patterns in the codebase. 
+It was a Next.js and FastAPI codebase. The task was to implement an information page for individual clients, with the ability to add notes and create new clients. When I reached out over email, Mike dropped a hint to go above and beyond — to be thoughtful of the user experience, not just throw AI at the problem, and to actually read through the code first.
 
-This turned out to be a good thing and made me focus on feature's to wow them instead and let me practice my scss skills outside tailwind. 
+This gave me a lot of creative freedom. I took more time to plan and read through everything carefully, which revealed that the codebase was using Mantine for styling. I really wanted to rewrite it in Tailwind so I could layer in shadcn and deliver a polished table dashboard, but part of the requirements was to match and follow existing patterns in the codebase.
 
-### side note
+That constraint turned out to be a good thing. It pushed me to focus on the features themselves and gave me a chance to practice SCSS outside of Tailwind.
 
-I'm finding more often than not the tailwind library doesnt properly detect image properties. Starting to understand the leaky abstraction problem. 
+### A side note on Tailwind
 
-## My implementation? 
+I'm finding more and more that Tailwind doesn't properly detect image properties. Starting to appreciate what people mean by the leaky abstraction problem.
 
-at my last internship I really wanted to design my own autocompletion engine for the text input field. It never felt like something that I could prioritize on the agile board as it was something I'd never worked with nor was it a bug or something that wasn't immediately important. 
+## My implementation
 
-But part of the requirements for the assignments mentioned to have fun with it. Thus I attempted it and it actually turned out really clean. It also taught me a alot about generating auto suggestions for a user. 
+At my last internship, I always wanted to design my own autocomplete engine for text input fields. It never felt like something I could justify prioritizing on the agile board — it wasn't a bug or immediately important, and it was outside my experience at the time.
 
-My previous internship already had something in place for a citation reference generator schema. so I never got to implement it start to finish, but it was also something I knew I could complete so I also generated some suggested follow ups for clients based on previous comments with highlighting suggestions. 
+But this assignment said to have fun with it, so I went for it. It turned out really clean and taught me a lot about generating suggestions on the fly.
 
-I learned so much about just getting this to work. All of it turned out to be way more simple than I was expecting. There were only a few values in which we needed to be able to append to the notes and the suggestion states had all the time in the world to generate and only really needed to update between note uploads so there was a lot of room for failure. 
+My previous internship already had a citation reference generator schema in place, so I never got to implement one from scratch. Here I also built suggested follow-ups for clients based on previous comments, with inline highlighted suggestions. Both features ended up being way simpler than I expected, and I learned a lot just from getting them working. The suggestion states had plenty of time to generate and only really needed to update between note uploads, so there was plenty of room to iterate without things breaking.
 
-## how did it turn out?
+## How it turned out
 
-It took me 10 hours to get working cleanly with their existing codebase conventions like folder structure and env import patterns and migration files. But it actually turned out really well. All you need for the auto completion for input fields is to create a listener for a pause and then after a given amount of time to just send out a prompt containing the instructions and background knowledge for the user and how to format the output. 
+It took about 10 hours to get everything working cleanly within their existing codebase conventions — folder structure, environment import patterns, migration files, all of it.
 
-There was an Instructor module I found that was less heavy handed with the instructions which ended up working really well. Inline ghost text was not really possible in the time required for the implementation so I opted with a tooltip suggestion with a tab complete annotation which ended up working really well. the context was clean, the haiku claude model was absolutely fast enough for it to work within a reasonable amount of time, and the global summary context worked well enough for it to actually be useful in tandem with the the suggested actions I also implemented. 
+The autocomplete approach is straightforward: set up a listener for a pause in typing, then after a set delay, send a prompt containing the context, user background, and output formatting instructions. I found an Instructor module that handled things cleanly without being too heavy-handed, which worked really well.
 
-The suggested interactions included a longer asyn process in which after a note was inserted into the db an AI generated summary on the customer was created and 3 recommended actions were also generated in which had 2 datatypes, a reference to the note id in which the recommendation was generated around and the suggestion itself. both in wchih could run asynchronously. 
+Inline ghost text wasn't realistic in the time I had, so I went with a tooltip suggestion with a tab-complete annotation instead. The context was clean, Claude Haiku was fast enough to keep it feeling responsive, and the global summary context made the suggestions actually useful alongside the suggested actions I also implemented.
 
-## result
+Those suggested interactions involved a longer async process: after a note was saved to the database, an AI-generated client summary was created and three recommended actions were generated — each with a reference to the note ID it was based on and the suggestion itself. Both ran asynchronously, which kept things snappy on the frontend.
 
-It worked really well! I was enthralled in it and spent way more time then I should have on it but even if they don't enjoy having to review all of that code. I want to incorporate more ai in my projects. it was surprisingly simple to actually implement. 
+## Result
 
-I honeslty want to fork the repo and keep working on it in a vibe codey way. 
+It worked really well. I got completely absorbed in it and spent way more time than I probably should have — but even if they don't love having to review all that code, I genuinely want to incorporate more AI into my projects going forward. It was surprisingly simple to actually pull off.
 
-reslistically I shouldnt and should just keep focusing on practicing the basics. 
+I honestly want to fork the repo and keep working on it. Realistically I shouldn't, and should stay focused on practicing the basics. But the urge is there.
+
+## The marketplace
+
+I took a short break from the frontend to focus strictly on the backend. Something I keep noticing: any shortcut I take implementation-wise, I dread having to return to later. I'm not sure what to call this effect, but it's real.
+
+For some form elements I let AI generate and style them instead of doing it myself, and now I don't want to touch them. It's an odd reluctance — not that the code is wrong, just that it doesn't feel like mine. I'm much slower when I implement things myself, but I also never avoid going back to it.
+
+## But here's the thing
+
+I learn so much more when I write the code myself. I almost want to disable Claude Code's ability to write any code at all. There are muscles I want to keep flexing, and I want the brain workout. I crave it.
+
+There's also been this almost forgotten feeling of reading AI output and just not liking the implementation despite it being technically correct. AI has no style.
+
+I ran into this today while trying to configure image handling. I asked Claude what my options were, even though I was already leaning toward mounting the files in a shared directory. It told me the images wouldn't persist because of Docker — but that's not really right. They wouldn't persist because they weren't tracked in version control, and there's no deployment method yet, so Docker wasn't even the relevant constraint. It was mimicking reasoning, not actually doing it. Easy to forget sometimes.
+
+## Options for image handling
+
+I'm planning on self-hosting this thing, partly to keep costs as low as possible for my sister's business — ideally zero overhead for her. I could store images locally on the server, but even I don't love that solution.
+
+There's real value in keeping both the front and backend stateless: better portability, easier maintenance, fewer long-term TODOs to track. It also gives me a chance to actually set up a content delivery network for images, which I haven't done before.
+
+The real decision is whether to keep an S3 bucket close to where I host and serve it through the Next.js server, or go client-side. Given the scale, routing through Next.js is probably the more sensible option — no need to manage whatever bucket is geographically closest to the user at any given time.
+
+# Designing infrastructure just butters my eggroll
+
+<div class="flex flex-row justify-center items-center gap-8">
+    <img src="images/butters-my-eggroll.png" alt="egg" style="max-width: 500px; corner-radius: 8px; padding: 16px;"/> </div>
