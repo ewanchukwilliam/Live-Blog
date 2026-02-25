@@ -24,7 +24,7 @@ If the answer is nothing, of course you'd feel like a fraud.
 
 ## Why I felt immune for so long
 
-What kept me grounded wasn't skill. It was identity. I started my CS degree in 2023 without having written a single line of production code. By most definitions, I had no business being confident. But I'd been messing around with computers since I was a kid, and that gave me a sense of belonging in the space that my actual skill level didn't yet justify.
+What kept me grounded wasn't skill. It was identity. I started my Computer Engineering degree in 2023 without having written a single line of production code. By most definitions, I had no business being confident. But I'd been messing around with computers since I was a kid, and that gave me a sense of belonging in the space that my actual skill level didn't yet justify.
 
 I remember being around 12 and accidentally hitting F11 on a webpage, landing in the developer tools. I started modifying the HTML on people's Facebook profiles and screenshotting it to pretend I'd hacked their accounts. I was a little malicious, but I was also, technically, writing HTML. That fascination, the thrill of understanding something others couldn't figure out, stuck with me. I think it planted a stronger sense of direction than anything I later did in school.
 
