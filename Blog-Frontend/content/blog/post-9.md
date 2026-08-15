@@ -12,17 +12,7 @@ I thought I wanted infrastructure/platform engineering. I thought I wanted that 
 
 Until now I've been a get-it-done-and-move-on kind of developer. I'd get the minimum viable product done, then move on and revisit later only if needed. Evan (my mentor) has shown me the other side of that: studying design patterns, clean code, DDD best practices, CQRS.
 
-All of this modelling solved so many problem spaces for me on the backend side. I'd always felt like designs were ad-hoc and throwaway, like there was no proper way to go about things — there's always some trap to fall into (too much clean code, dont-repeat-yourselfing into a mess, linting to a fault, chasing 100% test coverage for reliability). I'd never found a groove to develop in, which is probably why devops felt more consistent to me: declarative, and without opinion.
-
-## What's on the other side
-
-But I've seen the color of the grass on the other side of that wall. How a real engineer organizes the problem space. How its modelled, how its designed, what's given how much consideration when, how its organized, what responsibilities determine what.
-
-There's "correct" opinions, and then there's the youtube/twitter/linkedin/stackoverflow opinions that are so prevalent in tech and don't actually reflect reality. I'd been leaning on the latter to get up to speed, and I did get up to speed, in that podcasty sense, but I've found I don't like that side of tech. I've learned in a month that that isn't engineering.
-
-Those are weak opinions. It's not opinions in general that matter, it's the ones grounded in real experience: decisions made under pressure, real tradeoffs, complexity analysis, maintenance weight.
-
-I didn't like the idea that there might not be a proper way to do things on the backend. But I'm seeing that there is, and frankly I'm loving it.
+All of this modelling solved so many problem spaces for me on the backend side — there's always some trap to fall into (too much clean code, dont-repeat-yourselfing into a mess, linting to a fault, chasing 100% test coverage for reliability), and I'd never found a groove to develop in, which is probably why devops felt more consistent to me: declarative, and without opinion.
 
 ## devops? SRE? SWE?
 
