@@ -30,7 +30,7 @@ Now I'm not so sure what I want. I feel like I need to be modelling problems mor
 
 It feels like no matter what I do, I'm learning and growing every day at the office. I want to be a better backend engineer. I think I might consider more backendy positions going forward.
 
-Also I really like working with nerdy people. I liked construction shop talk, I miss that crude humor. But nerdy office shit I'm also loving.
+Also I really like working with nerdy people. I liked construction shop talk, I miss that crude humor. But nerding out is als pretty sweet.
 
 ## The new direction
 
