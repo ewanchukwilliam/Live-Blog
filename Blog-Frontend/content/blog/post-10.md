@@ -68,3 +68,4 @@ Write code that is easy to read, easy to write, and easy to maintain, and when a
 ## Sorry for all the dogshit code I'd written these past two years, I wish I'd known this sooner
 
 tbh it makes me wonder what alex and evan both saw in me when hiring me for my previous internships. 
+
