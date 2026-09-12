@@ -21,9 +21,9 @@ Pragmatism is not at all anything to do with "good enough" or "best practices." 
 
 If you're reading this Evan, thank you for everything. I'd been disappointed in myself for not being a better software engineer, but I'm seeing why that is now. A lot of my education was derailing me from writing real software.
 
-I blame the faculty a little bit. Computer Engineering is missing a lot of the fundamentals of software engineering, and to an extent poorly covers the existing curriculum around it. It should not be a course, it should be software engineering and electrical, not some bastardized combination of both.
+To preface I have a tendency to being a bit blameless (a gift from my father, yes I understand irony). But the Computer Engineering program and the University of Alberta is missing a lot of the fundamentals of software engineering, and to an extent poorly covers the existing curriculum around it. It should not be a course, it should be software engineering and electrical, not some bastardized combination of both.
 
-Thanks to Evan, I'm seeing how many fundamentals of software engineering I've been missing. How to pursue excellence and really how to conduct myself as a software engineer.
+Thanks to Evan, I'm seeing how many fundamentals of software engineering I've been missing. How to pursue excellence and really how to conduct myself as a software engineer. Crazy how as a MechE he'd pivoted to cover so much of the softE curriculum on his own despite being so much farther removed from it than myself. 
 
 The testing, the planning, the requirements gathering, the documentation. It'd been ridiculed by peers and previous employers as unnecessary. THEY ARE SO WRONG. GOD. EVERYTHING IS IMPORTANT.
 
