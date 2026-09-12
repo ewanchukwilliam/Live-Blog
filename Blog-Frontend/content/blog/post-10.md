@@ -21,9 +21,9 @@ Pragmatism is not at all anything to do with "good enough" or "best practices." 
 
 If you're reading this Evan, thank you for everything. I'd been disappointed in myself for not being a better software engineer, but I'm seeing why that is now. A lot of my education was derailing me from writing real software.
 
-To preface I have a tendency to being a bit blameless (a gift from my father, yes I understand irony). But the Computer Engineering program and the University of Alberta is missing a lot of the fundamentals of software engineering, and to an extent poorly covers the existing curriculum around it. It should not be a course, it should be software engineering and electrical, not some bastardized combination of both.
+To preface, I have a tendency to be a bit blameless every now and then (a gift from my father, yes I understand the irony). But even so the Computer Engineering program at the University of Alberta is missing a lot of the fundamentals of software engineering, and to an extent poorly covers the curriculum it does have. Software engineering shouldn't be a single course tacked onto the program — it should be its own discipline, distinct from electrical, not some bastardized combination of both.
 
-Thanks to Evan, I'm seeing how many fundamentals of software engineering I've been missing. How to pursue excellence and really how to conduct myself as a software engineer. Crazy how as a MechE he'd pivoted to cover so much of the softE curriculum on his own despite being so much farther removed from it than myself. 
+Thanks to Evan, I'm seeing how many fundamentals of software engineering I've been missing. How to pursue excellence and really how to conduct myself as a software engineer. Crazy how as a MechE he'd pivoted to cover so much of the softE curriculum on his own despite being so much farther removed from it than I am.
 
 The testing, the planning, the requirements gathering, the documentation. It'd been ridiculed by peers and previous employers as unnecessary. THEY ARE SO WRONG. GOD. EVERYTHING IS IMPORTANT.
 
@@ -31,13 +31,13 @@ The testing, the planning, the requirements gathering, the documentation. It'd b
 
 Part of the book talks about no broken windows. That means if a building is abandoned, it generally holds the test of time until someone breaks a window. Then people see the flaws, people see the lack of care, and the building becomes overrun with haste.
 
-Its insidiously infectious, and I'd seen it first hand at my previous internship. AI slop code is exactly the same idea, its the equivalent of boarding up a broken window. Temporary fixes that only preserve the illusion of care.
+It's insidiously infectious, and I'd seen it first hand at my previous internship. AI slop code is exactly the same idea, it's the equivalent of boarding up a broken window. Temporary fixes that only preserve the illusion of care.
 
-I owe Dave Thomas and Andrew Hunt for whatever direction my career takes going forward. Software is a language, theres no reason to use it other than to communicate with other people as well as the machine.
+I owe Dave Thomas and Andrew Hunt for whatever direction my career takes going forward. Software is a language — there's no reason to use it other than to communicate with other people as well as the machine.
 
 # I'm not a good programmer
 
-I'd thought I was for a while. I tend to miss instances of evaluation. I'm starting to realize how many times I'd missed the mark, how I'd fallen short of expectations silently due to my own ignorance. Abandoned my own competencies only to to use AI as a crutch.
+I'd thought I was for a while. I tend to miss instances of evaluation. I'm starting to realize how many times I'd missed the mark, how I'd fallen short of expectations silently due to my own ignorance. I abandoned my own competencies, only to use AI as a crutch.
 
 I'd been given the luxury of an employer to write code for and learn from, why have I been throwing away all that investment I'd been putting into myself and career? 
 
@@ -49,11 +49,11 @@ I've much to read, much more to build, and much more to practice before I'd cons
 
 # Reading for depth vs breadth
 
-Part of the book addresses this. I thought it was only good to cover breadth, I considered it sharpening the axe. But the book says that long form content is the only way to truly develop depth, and that's something I'd lacked and wanted to learn from this internship. I'm glad this book spelled it out for me so explicitly. (sorry evan I need things dumbed down for me sometimes)
+Part of the book addresses this. I thought it was only good to cover breadth; I considered it sharpening the axe. But the book says that long form content is the only way to truly develop depth, and that's something I'd lacked and wanted to learn from this internship. I'm glad this book spelled it out for me so explicitly. (sorry evan I need things dumbed down for me sometimes)
 
-I'm embarassed to admit it but I think there were opportunities to build depth at my previous internship as well, I just don't think I realized it until after I'd already fallen short of expectations. Attitude wise, I thought being a jack of all trades was the smartest way to stay employable as a developer.
+I'm embarrassed to admit it but I think there were opportunities to build depth at my previous internship as well, I just don't think I realized it until after I'd already fallen short of expectations. Attitude-wise, I thought being a jack of all trades was the smartest way to stay employable as a developer.
 
-That is why...
+That's why I thought I had it figured out — and why I was wrong.
 
 # I'm wrong and I know nothing
 
@@ -61,9 +61,6 @@ That is why...
 
 This is something I'd been searching for the answer to for a while. I didn't truly understand how you can control another developer's use of your code, bound it clearly enough that they need to use it properly. The revelation has been that software is just communication, and the language itself isn't designed to enforce that, it's designed to be communicated as written.
 
-I'm not just talking about writing code thats easy to read. I'm talking about the fact that there is nothing that can prevent someone from ignoring your code. You can force it, but you shouldn't unless necessary. It's part of that beautiful garden approach to dating.
+I'm not just talking about writing code that's easy to read. I'm talking about the fact that there is nothing that can prevent someone from ignoring your code. You can force it, but you shouldn't unless necessary. It's part of that beautiful garden approach — you build something open enough to invite people in, not something fenced off to force them into using it correctly.
 
-Write code that is easy to read, easy to write, and easy to maintain, and when all else fails, at the very least well documented. Software engineering is a language intended to be communicated. Communicate well and hopefully others will follow suit.
-
-## Sorry for all the dogshit code I'd written these past two years, I wish I'd known this sooner
-
+Software engineering is a language intended to be communicated, not enforced. So the best thing you can strive to be, at the end of the day, is a strong communicator: write code that is easy to read, easy to write, and easy to maintain, and when all else fails, at the very least well documented.
