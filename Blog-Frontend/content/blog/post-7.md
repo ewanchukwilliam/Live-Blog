@@ -72,7 +72,7 @@ There's real value in keeping both the front and backend stateless: better porta
 
 The real decision is whether to keep an S3 bucket close to where I host and serve it through the Next.js server, or go client-side. Given the scale, routing through Next.js is probably the more sensible option — no need to manage whatever bucket is geographically closest to the user at any given time.
 
-# Designing infrastructure just butters my eggroll
+## Designing infrastructure just butters my eggroll
 
 <div class="flex flex-row justify-center items-center gap-8">
     <img src="images/butters-my-eggroll.png" alt="egg" style="max-width: 500px; corner-radius: 8px; padding: 16px;"/> </div>

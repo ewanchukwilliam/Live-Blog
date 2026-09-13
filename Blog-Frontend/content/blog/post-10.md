@@ -1,6 +1,6 @@
 ---
-title: I know nothing
-description: I still don't know anything
+title: The Pragmatic Programmer
+description: some reflections on gained insights and mistakes
 date: 2026-09-12
 ---
 
@@ -27,7 +27,7 @@ Thanks to Evan, I'm seeing how many fundamentals of software engineering I've be
 
 The testing, the planning, the requirements gathering, the documentation. It'd been ridiculed by peers and previous employers as unnecessary. THEY ARE SO WRONG. GOD. EVERYTHING IS IMPORTANT.
 
-# No Broken Windows
+## No Broken Windows
 
 Part of the book talks about no broken windows. That means if a building is abandoned, it generally holds the test of time until someone breaks a window. Then people see the flaws, people see the lack of care, and the building becomes overrun with haste.
 
@@ -35,7 +35,7 @@ It's insidiously infectious, and I'd seen it first hand at my previous internshi
 
 I owe Dave Thomas and Andrew Hunt for whatever direction my career takes going forward. Software is a language — there's no reason to use it other than to communicate with other people as well as the machine.
 
-# I'm not a good programmer
+## I'm not a good programmer
 
 I'd thought I was for a while. I tend to miss instances of evaluation. I'm starting to realize how many times I'd missed the mark, how I'd fallen short of expectations silently due to my own ignorance. I abandoned my own competencies, only to use AI as a crutch.
 
@@ -47,15 +47,13 @@ I'd been given the luxury of an employer to write code for and learn from, why h
 
 I've much to read, much more to build, and much more to practice before I'd consider myself a good engineer.
 
-# Reading for depth vs breadth
+## Reading for depth vs breadth
 
 Part of the book addresses this. I thought it was only good to cover breadth; I considered it sharpening the axe. But the book says that long form content is the only way to truly develop depth, and that's something I'd lacked and wanted to learn from this internship. I'm glad this book spelled it out for me so explicitly. (sorry evan I need things dumbed down for me sometimes)
 
 I'm embarrassed to admit it but I think there were opportunities to build depth at my previous internship as well, I just don't think I realized it until after I'd already fallen short of expectations. Attitude-wise, I thought being a jack of all trades was the smartest way to stay employable as a developer.
 
 That's why I thought I had it figured out — and why I was wrong.
-
-# I'm wrong and I know nothing
 
 ## One last thing I thought was important
 

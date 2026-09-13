@@ -30,11 +30,11 @@ Backend engineering is significantly more well-rounded than I'd thought. I like 
 
 I'd like to let go of the clever=bad instinct I somehow picked up along the way. I want to design fast, and I want to design well, and I want to develop that sense of better judgement, not just good judgement.
 
-# Today I'm finally an imposter
+## Today I'm finally an imposter
 
 My code is shit. More importantly, I been whiping my ass all my life, so I know how to clean a pair of butt cheeks when necessary. My assless chaps have the means to become assfull chaps. I have the means to improve the code.
 
-## I found my career starting line.
+### I found my career starting line.
 
 Realistically I do still really enjoy devops/infrastructure engineering. But I feel like an imposter for the first time in a long time. So much to learn, so much to improve on, so many new ways to grow. It's awesome.
 

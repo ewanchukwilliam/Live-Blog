@@ -42,7 +42,7 @@ I was ready to migrate completely to a new IDE. JetBrains, VSCode, whatever it t
 
 ---
 
-# The results
+## The results
 
 ```lua
 return {
@@ -60,13 +60,13 @@ Beautiful autocompletions. Snippet completions. Everything I would ever need for
 
 This works even better than Django's backend. Autocompletions for that backend never worked for anything. It was always a mess of guessing import paths and methods until you saved the file. I never want to work without a typesafe backend ever again.
 
-## Hello Spring Boot
+### Hello Spring Boot
 
 The project structures just make sense. The way things are divided up. Tables are already mapped from class objects to table structures. Django's ORM was impossible to get a field autocompletion annotation out of. It just works in Java. I could cry.
 
 Where have you been all my life. The dependency management. The everything. It's so clean. Even the JDTLS code actions work. You can still generate constructors, getters, setters. It's too clean.
 
-## So All is extremely well
+### So All is extremely well
 
 <div class="flex flex-row justify-center items-center gap-8">
     <img src="images/no-ragrets.png" alt="No ragrets" style="max-width: 500px; corder-radius 8px"/>

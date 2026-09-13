@@ -70,9 +70,9 @@ Made `pages/blog/[...slug].vue` just for blog posts. It has the author section a
 
 Nuxt Content v3 requires schema definitions for custom frontmatter. Composables are auto-imported in Nuxt which is nice. Use `YYYY-MM-DD` date formats for reliable sorting.
 
-# Rant Begins Here
+## Rant Begins Here
 
-## Why am I loving this so much?
+### Why am I loving this so much?
 
 I didn't realize that my Supermaven plugin wasn't working. I thought I just had really bad autocompletion suggestions, but about 4 hours in I realized it wasn't working at all. I've really enjoyed building with well-made documentation.
 
@@ -88,7 +88,7 @@ I do think my journey with LLMs in development has reached its limits and I need
 
 Still need to add actual comments at some point. Maybe tags too.
 
-## I'm not anti-AI
+### I'm not anti-AI
 
 I'm anti the messaging around those encouraging the collapsing economy. Yes, we all volunteer our training data and it makes all of our lives easier, and that's a sacrifice I think a lot of us are willing to make. I think it's fundamentally shortsighted though. It's not possible to become as amazing as it is without obfuscating the value of quality data. I don't think LLMs would be possible without some inherent intellectual property theft. I think LLMs at their core are just stolen data that cannot be traced back to its original source. In the same way Ubers can't be regulated as taxi drivers. Yes it's a billion dollar industry, but also it's never made money. Google already exists. Sure it's being driven into the ground right now with this bizarre push for bulldozer penny-pinching, but it's solving an almost already solved problem.
 
@@ -98,11 +98,11 @@ Essays weren't worth all that much to begin with. Homework was always trivialize
 
 A good LLM is only good at doing what the world is already good at doing. It feels like a weak filler that makes a mess of good things. Any industry it supports is fundamentally less stable than it otherwise would have been, whether good or bad.
 
-## Summary
+### Summary
 
 I really enjoyed the process of working as closely as I have with documentation for this project. It's a muscle I'd like to grow once again. Also, I hope I never have to work with documentation without working examples ever again.
 
-## AI Business Idea
+### AI Business Idea
 
 AI-generated template scripts. Plug and play documentation generation scripts. Yes, LLMs are good at documentation. Most documentation is limited by use cases and the creativity of the developer using it. Abstract examples increase adoption, and developers love it. Why not bring better documentation to the world through AI?
 

@@ -30,21 +30,21 @@ A lot of what I used to dismiss as minor, I can now see are organizational issue
 
 I'm going to be a better developer. A better engineer. I'm finally starting to speak the language properly, and it's hard to overstate how valuable this internship has already been.
 
-# The downsides
+## The downsides
 
-## There are no free lunches
+### There are no free lunches
 
 There are a few downsides. One is that I'm working on a virtual workstation running on a Ryzen EPYC CPU. Plenty of RAM, but the single-core performance is painfully slow. Running the .NET backend with hot reload, it would sometimes take up to 5 seconds to navigate between files after saving a change: the backend would detect the change, hot-reload the server (slowly), and then the LSP diagnostics would rerender. I have no idea why VS Code is so much slower than Neovim for navigation (it's got to be some kind of second-class citizen somewhere in the loading hierarchy), but it was becoming genuinely unusable at times.
 
 I'm trying not to make too much of a fuss about it. Realistically it's slowing me down a fair amount waiting for things to recompile between changes. I imagine the senior-engineer instinct here is to just write it right the first time, but I'd rather make mistakes as quickly and often as possible.
 
-## VS Code vs. Neovim (my beloved)
+### VS Code vs. Neovim (my beloved)
 
 It's been a nice change of pace, honestly. Not having to hunt through years of configs, GitHub READMEs, and open issues just to get the basics working. What probably would have taken me a month to configure in Neovim took two days to replicate in VS Code. I'd almost considered switching over full time.
 
 But I'm not going to. Going back to doing things my way, it's so much faster. I can't stand how slow VS Code gets. I don't know if it's the work machine or just too many buffers open, but by Friday it was getting genuinely frustrating: save a change, wait 5 seconds for the linter to rerender, then switch files. That turns a 5-minute fix into an hour, fast.
 
-## The other downsides
+### The other downsides
 
 It's a Windows-everything environment: Azure Blobs, MSSQL, Azurite, Azure DevOps, and .NET Core. ASP.NET Core has actually been great to work with; it's close enough to Java that I really enjoy it. I like object-oriented languages, and I'd guess a big part of the 2016 .NET rewrite was chasing feature parity with Spring Boot, which it's actually gotten quite close to.
 
@@ -52,7 +52,7 @@ The other downside is working with a real IT team for permissions and security. 
 
 That's the real reason I gave up on Neovim, at least for now. There's no realistic way I'd get to a usable setup by having IT vet every individual installation dependency one at a time. If a single one failed a background check, the whole setup falls apart. Which is a shame, but it's probably good for me to know how to work in more than one editor. In hindsight, learning how to configure plain Vim into a workable IDE would have been a much easier sell to IT than a full Neovim config.
 
-## None of that really matters
+### None of that really matters
 
 I've already learned how to write real code, and honestly, none of the rest matters much next to that. I'm starting to think like an actual developer. I could always model a problem well enough to get an LLM to implement it for me, but I'd never developed the extra layer on top: the sense of taste, the instinct for what's clean. I'm not saying I have none of that. I'm saying there are ingredients and recipes I'd been using that turned out to be a lot messier than I realized.
 
