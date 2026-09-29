@@ -1,40 +1,64 @@
 ---
-title: Imposter Syndrome Revisited
-description: I'm hitting a new wall. I'm at a career crossroads.
-date: 2026-08-16
+title: The Pragmatic Programmer
+description: some reflections on gained insights and mistakes
+date: 2026-09-12
 ---
 
-# I'm hitting a new wall
+# I know much less than I thought I did
 
-You always hear about this wall. Tutorial hell is the most common example. Then framework hell, then platform hell, then tooling hell. But I'm hitting a new wall. I think I've explored enough of the development space to decide on a realistic specialization.
+## I'm not sure what I'm doing
+What it truly means to be a good software engineer is becoming clearer and clearer. It was always my goal to become a software engineer, but I never really considered becoming a great one.
 
-I thought I wanted infrastructure/platform engineering. I thought I wanted that endless yaml reading and writing. But the last month at this new internship has changed that for me. I'm being mentored by someone who REALLY knows their stuff. A proper senior. Someone who ships quality software quickly.
+I hope that makes sense to someone out there. Exposure to excellence is invaluable. I've met good engineers that can write good code and I've met bad ones that can't.
 
-Until now I've been a get-it-done-and-move-on kind of developer. I'd get the minimum viable product done, then move on and revisit later only if needed. Evan (my mentor) has shown me the other side of that: studying design patterns, clean code, DDD best practices, CQRS.
+My preceptor/mentor is a pragmatic programmer. The classic book The Pragmatic Programmer was co-authored by Dave Thomas and Andrew Hunt, and the more I listen to it the more I cringe at the way I'd been thinking about software design.
 
-All of this modelling solved so many problem spaces for me on the backend side — there's always some trap to fall into (too much clean code, dont-repeat-yourselfing into a mess, linting to a fault, chasing 100% test coverage for reliability), and I'd never found a groove to develop in, which is probably why devops felt more consistent to me: declarative, and without opinion.
+<div class="flex flex-row justify-center items-center gap-8">
+    <img src="images/pragmatic-book.jpg" alt="The Pragmatic Programmer book" style="max-width: 500px; border-radius: 8px; padding: 16px;"/>
+</div>
 
-## devops? SRE? SWE?
+Pragmatism is not at all anything to do with "good enough" or "best practices." Evan (my preceptor) is an exemplary pragmatist. He's a great teacher and mentor. He's given me responsibility and accountability over my code and designs.
 
-Now I'm not so sure what I want. I feel like I need to be modelling problems more often. I need to design things I use, and I need to be more organized and considerate of responsibility and long-term patterns. I'm setting my head on fire every day at work in some new way of thinking. I feel entrenched in this new way of thinking, almost unable to go back to breathing in my old one — it's just so much better.
+If you're reading this Evan, thank you for everything. I'd been disappointed in myself for not being a better software engineer, but I'm seeing why that is now. A lot of my education was derailing me from writing real software.
 
-It feels like no matter what I do, I'm learning and growing every day at the office. I want to be a better backend engineer. I think I might consider more backendy positions going forward.
+To preface, I have a tendency to be a bit blameless every now and then (a gift from my father, yes I understand the irony). But even so the Computer Engineering program at the University of Alberta is missing a lot of the fundamentals of software engineering, and to an extent poorly covers the curriculum it does have. Software engineering shouldn't be a single course tacked onto the program — it should be its own discipline, distinct from electrical, not some bastardized combination of both.
 
-Also I really like working with nerdy people. I liked construction shop talk, I miss that crude humor. But nerding out is als pretty sweet.
+Thanks to Evan, I'm seeing how many fundamentals of software engineering I've been missing. How to pursue excellence and really how to conduct myself as a software engineer. Crazy how as a MechE he'd pivoted to cover so much of the softE curriculum on his own despite being so much farther removed from it than I am.
 
-## The new direction
+The testing, the planning, the requirements gathering, the documentation. It'd been ridiculed by peers and previous employers as unnecessary. THEY ARE SO WRONG. GOD. EVERYTHING IS IMPORTANT.
 
-I think I might just want to be a backend engineer with a bit of specialization in infrastructure/platform engineering. I want to deploy more applications, not just design the pipelines for them. I think I'd miss out on half the deliciousness of the pie that is being a software engineer if I settled after the first appealing career I stumbled across.
+## No Broken Windows
 
-Backend engineering is significantly more well-rounded than I'd thought. I like the idea that I can differentiate myself as a backend engineer by the decisions and designs I make.
+Part of the book talks about no broken windows. That means if a building is abandoned, it generally holds the test of time until someone breaks a window. Then people see the flaws, people see the lack of care, and the building becomes overrun with haste.
 
-I'd like to let go of the clever=bad instinct I somehow picked up along the way. I want to design fast, and I want to design well, and I want to develop that sense of better judgement, not just good judgement.
+It's insidiously infectious, and I'd seen it first hand at my previous internship. AI slop code is exactly the same idea, it's the equivalent of boarding up a broken window. Temporary fixes that only preserve the illusion of care.
 
-## Today I'm finally an imposter
+I owe Dave Thomas and Andrew Hunt for whatever direction my career takes going forward. Software is a language — there's no reason to use it other than to communicate with other people as well as the machine.
 
-My code is shit. More importantly, I been whiping my ass all my life, so I know how to clean a pair of butt cheeks when necessary. My assless chaps have the means to become assfull chaps. I have the means to improve the code.
+## I'm not a good programmer
 
-### I found my career starting line.
+I'd thought I was for a while. I tend to miss instances of evaluation. I'm starting to realize how many times I'd missed the mark, how I'd fallen short of expectations silently due to my own ignorance. I abandoned my own competencies, only to use AI as a crutch.
 
-Realistically I do still really enjoy devops/infrastructure engineering. But I feel like an imposter for the first time in a long time. So much to learn, so much to improve on, so many new ways to grow. It's awesome.
+I'd been given the luxury of an employer to write code for and learn from, why have I been throwing away all that investment I'd been putting into myself and career? 
 
+<div class="flex flex-row justify-center items-center gap-8">
+    <img src="/im-an-idiot.jpg" alt="I'm an idiot" style="max-width: 500px; border-radius: 8px; padding: 16px;"/>
+</div>
+
+I've much to read, much more to build, and much more to practice before I'd consider myself a good engineer.
+
+## Reading for depth vs breadth
+
+Part of the book addresses this. I thought it was only good to cover breadth; I considered it sharpening the axe. But the book says that long form content is the only way to truly develop depth, and that's something I'd lacked and wanted to learn from this internship. I'm glad this book spelled it out for me so explicitly. (sorry evan I need things dumbed down for me sometimes)
+
+I'm embarrassed to admit it but I think there were opportunities to build depth at my previous internship as well, I just don't think I realized it until after I'd already fallen short of expectations. Attitude-wise, I thought being a jack of all trades was the smartest way to stay employable as a developer.
+
+That's why I thought I had it figured out — and why I was wrong.
+
+## One last thing I thought was important
+
+This is something I'd been searching for the answer to for a while. I didn't truly understand how you can control another developer's use of your code, bound it clearly enough that they need to use it properly. The revelation has been that software is just communication, and the language itself isn't designed to enforce that, it's designed to be communicated as written.
+
+I'm not just talking about writing code that's easy to read. I'm talking about the fact that there is nothing that can prevent someone from ignoring your code. You can force it, but you shouldn't unless necessary. It's part of that beautiful garden approach — you build something open enough to invite people in, not something fenced off to force them into using it correctly.
+
+Software engineering is a language intended to be communicated, not enforced. So the best thing you can strive to be, at the end of the day, is a strong communicator: write code that is easy to read, easy to write, and easy to maintain, and when all else fails, at the very least well documented.
