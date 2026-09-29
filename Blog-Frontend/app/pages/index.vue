@@ -101,11 +101,8 @@ const links = ref<ContentTocLink[]>([
 						I enjoy developing my skills through projects. I'm looking to benefit
 						from higher quality documentation of my progress as a developer. I'm
 						looking to rely on LLM's less that I currently do in my day to day and
-						this is my way of documenting my journey along side the evolution of
-						AI in hopes that in the future as a software engineer maybe some
-						famous anti-ai influencer benefits from my experience :), who know's
-						maybe someday I'll realize my mistakes and never write another line of
-						code.
+						this is my way of documenting my journey into software development 
+						along side the evolution of AI.
 					</p>
 
 					<div class="mt-6">
@@ -131,13 +128,19 @@ const links = ref<ContentTocLink[]>([
 						<div>
 							<h4 class="font-medium">Frameworks:</h4>
 							<p class="text-muted mt-1">
-								React, Next/Nuxts, Express, Springboot, Django, Kubernetes, Docker
+								Springboot, ASP.NET Core, React, Django 
+							</p>
+						</div>
+						<div class="mt-3">
+							<h4 class="font-medium">Cloud & Devops:</h4>
+							<p class="text-muted mt-1">
+								AWS, Azure, Terraform, Ansible, Docker, Kubernetes, GH
 							</p>
 						</div>
 						<div class="mt-3">
 							<h4 class="font-medium">Languages:</h4>
 							<p class="text-muted mt-1">
-								Python, Typescript, Java, (Go in the future someday)
+								Java, C#, Typescript, Python, C/C++
 							</p>
 						</div>
 					</div>
