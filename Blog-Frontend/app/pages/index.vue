@@ -165,7 +165,7 @@ const links = ref<ContentTocLink[]>([
 						<h3 id="quick-links" class="text-xl font-semibold scroll-mt-20">
 							Quick Links
 						</h3>
-						<div class="flex flex-wrap gap-2">
+						<div class="flex flex-wrap gap-2 mt-3">
 							<UButton
 								icon="i-lucide-rocket"
 								size="md"
