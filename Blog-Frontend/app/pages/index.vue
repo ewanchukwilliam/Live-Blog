@@ -111,9 +111,8 @@ const links = ref<ContentTocLink[]>([
 						</h3>
 						<p class="text-muted">
 							I'm a Computer Engineering Student making a late in life career
-							pivot. I'm in my 3rd year of uni at the University of Alberta. I
-							come from an industrial medic background. I'm pursuing a childish
-							dream of mind years ago in the new softare engineering direction.
+							pivot. I'm in my 5th year of uni at the University of Alberta. I
+							come from an industrial medic background.
 							I'm personally interested in both Full Stack Development and Devops.
 							I like the scalability of distributed systems, and developing
 							applications from scratch. I use Neovim, and have a custom terminal
