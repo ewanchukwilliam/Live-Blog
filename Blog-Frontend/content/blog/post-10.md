@@ -7,13 +7,11 @@ date: 2026-10-08
 # Earning trust
 
 ## Being responsible
-My boss went on holidays and basically handed me the keys. He trusted me with a lot more of our infrastructure than an intern usually gets.
+My boss went on holidays and basically handed me the keys. I'm responsible for a lot more of our infrastructure than an intern usually gets, and that's foreign to me.
 
-Being trusted like that is foreign to me. There's something about being in the office instead of working from home that builds that kind of trust with a team.
+I keep wondering what changed. Maybe it's being in the office instead of working from home. Maybe it's him seeing every wart and my unkempt hair from the desk behind me, or watching me fumble around in the dark. Maybe it's shock and awe at the way I handicap myself with the terminal and my aversion to mice.
 
-Maybe it's my boss seeing every wart and my unkempt hair from the desk behind me. Maybe it's watching me fumble around in the dark. Maybe it's shock and awe at the way I handicap myself with the terminal and my aversion to mice.
-
-## Or maybe it's that they can see I care
+## Or maybe it's that he can see I care
 The Pragmatic Programmer strikes again. I talked about it last post, but it's so dense with insight that I keep coming back to it. The very first tip in the book is to care about your craft, and the whole thing leans hard on taking responsibility for the code you write.
 
 That felt strange to me at first. Getting it working is enough, no?
