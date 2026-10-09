@@ -22,7 +22,7 @@ That's what I thought until this internship. Getting it working is maybe 30% of 
 
 People are watching to see if you care about that art. Last post I wrote about broken windows, how one sign of neglect invites more until the whole building goes. Caring about the craft means not leaving those windows broken, and that means slowing down.
 
-My pipeline project dragged out an extra week. I tested every migration manually in different git branch environments, making sure no code change could accidentally deploy a migration and nothing could leave behind permanent state we couldn't easily roll back. I obsessed over every one of them. In other words, I gave a fuck.
+My pipeline project dragged out an extra week. I tested every migration manually in different git branch environments, making sure no code change could accidentally deploy a migration and nothing could leave behind permanent state we couldn't easily roll back. I obsessed over every one of them. In other words, I gave a damn.
 
 I ended up with a pipeline clean enough to deploy both our staging and development environments. If I'd slopped my way through it instead, I can't imagine he would have handed me the keys.
 
