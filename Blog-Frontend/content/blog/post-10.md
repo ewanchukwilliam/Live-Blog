@@ -49,7 +49,7 @@ That mass is what they're always bouncing around in their heads when they plan a
 
 You have to predict what you'll be working with eight months from now, when you won't have a fucking clue what you were thinking when you wrote the code you're about to write today.
 
-It's inevitable. You have to document. Even while I'm writing code I can feel pieces of the puzzle slipping out of my head.
+It's inevitable. You have to document. You have to be intentional. you have to be principled in your designs. Even while I'm writing code I can feel pieces of the puzzle slipping out of my head.
 
 The more I plan and the more I write down, the less I have to review, and the less time I waste agonizing over decisions I might never know the answers to.
 
